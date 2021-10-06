@@ -18,10 +18,12 @@ public class Movement : MonoBehaviour
     void Move()
     {
         Vector3 playerPos = transform.position;
-        float maxX = 5.5f;
-        float minX = -5.5f;
-        float maxY = 4f;
+        float maxX = 2f;
+        float minX = -2f;
+        float maxY = 8f;
         float minY = -0.2f;
+
+        float rot = Input.GetAxis("Horizontal");
 
         if (Input.GetKeyDown("r"))
         {
@@ -59,6 +61,7 @@ public class Movement : MonoBehaviour
             }
         }
 
+        //transform.Translate(Vector3.back * Time.deltaTime * rot * 100f);
 
 
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Map : MonoBehaviour
 {
+
     Vector3 mapStart = new Vector3(0, 0, 0);
     void ResetPos()
     {
@@ -22,7 +23,7 @@ public class Map : MonoBehaviour
             ResetPos();
         }
 
-        MapMove();
-        transform.position += new Vector3(0, 0, -10 * Time.deltaTime);
+        //MapMove();
+        //transform.position += new Vector3(0, 0, -20 * Time.deltaTime);
     }
 }
