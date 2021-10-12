@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class ObstacleMove : MonoBehaviour
 {
-    [SerializeField] GameObject Obstacle;
+    [SerializeField] GameObject obstacle;
     [SerializeField] GameObject initObject;
     InitGameScript initGameScript;
+    [SerializeField] float speedMod = 0.8f;
     float speed;
 
-    // Start is called before the first frame update
     void Start()
     {
         initObject = GameObject.Find("GlobalVar");
@@ -17,14 +17,13 @@ public class ObstacleMove : MonoBehaviour
         speed = initGameScript.spaceshipSpeed;
     }
 
-    // Update is called once per frame
     void Update()
     {
         speed = initGameScript.spaceshipSpeed;
-        transform.Translate(0, 0, 0.8f * -speed * Time.deltaTime);
+        transform.Translate(0, 0, speedMod * -speed * Time.deltaTime);
         if (transform.position.z < -30)
         {
-            Destroy(Obstacle);
+            Destroy(obstacle);
         }
     }
 }

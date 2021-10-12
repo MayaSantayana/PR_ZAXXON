@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class MapGenerator : MonoBehaviour
 {
-    public GameObject mapAssets;
+
+    [SerializeField] GameObject[] mapAssets = new GameObject[2];
     [SerializeField] Transform initPos;
     [SerializeField] GameObject initObject;
     InitGameScript initGameScript;
     float intervalo = 100f;
     float speed;
-   
-    
+    int n;
+    int count = 0;
+
     void Start()
     {
         initObject = GameObject.Find("GlobalVar");
         initGameScript = initObject.GetComponent<InitGameScript>();
         speed = initGameScript.spaceshipSpeed;
         StartCoroutine("MapGen");
+        StartingMapGen();
+
     }
 
 
@@ -30,8 +34,27 @@ public class MapGenerator : MonoBehaviour
         float waiting = intervalo / speed;
         while (true)
         {
-            Instantiate(mapAssets, transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(waiting);
+            if (count < 3)
+            {
+                Instantiate(mapAssets[0], transform.position, Quaternion.identity);
+                count++;
+                yield return new WaitForSeconds(waiting);
+            }
+            else
+            {
+                Instantiate(mapAssets[1], transform.position, Quaternion.identity);
+                count = 0;
+                yield return new WaitForSeconds(waiting);
+            }
+        }
+    }
+    
+    void StartingMapGen()
+    {
+        for (n = 0; n < 20; n++)
+        {
+            float newPosZ = transform.position.z - (n * 100);
+            Instantiate(mapAssets[0], new Vector3(transform.position.x, transform.position.y, newPosZ), Quaternion.identity);
         }
     }
 }

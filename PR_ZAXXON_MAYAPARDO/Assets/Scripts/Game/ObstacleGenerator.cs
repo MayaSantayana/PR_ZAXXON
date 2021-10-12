@@ -4,23 +4,34 @@ using UnityEngine;
 
 public class ObstacleGenerator : MonoBehaviour
 {
-    public GameObject obstacle;
+    [SerializeField] GameObject[] obstacle = new GameObject[3];
     [SerializeField] Transform initPos;
     [SerializeField] GameObject initObject;
     InitGameScript initGameScript;
     [SerializeField] float speed;
-    float intervalo = 30f;
-    float waiting;
+    float intervalo = 60f;
 
     IEnumerator Generator()
     {
         float waiting = intervalo / speed;
         while (true)
         {
-            int width = 6;
-            float randispY = transform.position.y + Random.Range(0, 6);
-            float randispX = Random.Range(-width, width);
-            Instantiate(obstacle, new Vector3(randispX, randispY, transform.position.z), Quaternion.identity);
+            float width = 2.5f;
+            float widthDisp = Random.Range(-1f, 1f);
+            float randNum = Random.Range(-1f, 1f);
+            int r = Random.Range(0, obstacle.Length);
+            if (randNum < 0)
+            {
+                float randispY = transform.position.y + Random.Range(1, 6);
+                float randispZ = transform.position.y + Random.Range(-3f, 3f);
+                Instantiate(obstacle[r], new Vector3(transform.position.x + width + widthDisp, randispY, transform.position.z + randispZ), Quaternion.identity);
+            }
+            if (randNum >= 0)
+            {
+                float randispY = transform.position.y + Random.Range(1, 6);
+                float randispZ = transform.position.y + Random.Range(-3f, 3f);
+                Instantiate(obstacle[r], new Vector3(transform.position.x - width + widthDisp, randispY, transform.position.z + randispZ), Quaternion.identity);
+            }
             yield return new WaitForSeconds(waiting);
         }
     }

@@ -6,11 +6,28 @@ public class InitGameScript : MonoBehaviour
 {
     //GLOBAL VARIABLES
     public float spaceshipSpeed = 60f;
+    public float levelTime = 360f;
+    [SerializeField] float speedIncrease = 10f;
+
+    IEnumerator SpeedIncrease()
+    {
+        while (spaceshipSpeed < 200f)
+        {
+        spaceshipSpeed = spaceshipSpeed + speedIncrease;
+        Debug.Log("New Speed:" + spaceshipSpeed);
+        yield return new WaitForSeconds(levelTime);
+
+        }
+        if (spaceshipSpeed >= 190f) 
+        {
+        Debug.Log("Max speed");
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        spaceshipSpeed = 60f;
+        StartCoroutine("SpeedIncrease");
     }
 
     // Update is called once per frame
