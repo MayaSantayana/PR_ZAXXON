@@ -5,7 +5,7 @@ using UnityEngine;
 public class InitGameScript : MonoBehaviour
 {
     //GLOBAL VARIABLES
-    public float spaceshipSpeed = 60f;
+    public float spaceshipSpeed = 50f;
     public float levelTime = 360f;
     [SerializeField] float speedIncrease = 10f;
 
@@ -28,6 +28,7 @@ public class InitGameScript : MonoBehaviour
     void Start()
     {
         StartCoroutine("SpeedIncrease");
+        spaceshipSpeed = 50f;
     }
 
     // Update is called once per frame

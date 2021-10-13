@@ -21,6 +21,7 @@ public class MapGenerator : MonoBehaviour
         speed = initGameScript.spaceshipSpeed;
         StartCoroutine("MapGen");
         StartingMapGen();
+        intervalo = 100f;
 
     }
 
@@ -34,7 +35,7 @@ public class MapGenerator : MonoBehaviour
         float waiting = intervalo / speed;
         while (true)
         {
-            if (count < 3)
+            if (count <= 3)
             {
                 Instantiate(mapAssets[0], transform.position, Quaternion.identity);
                 count++;
