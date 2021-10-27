@@ -29,6 +29,10 @@ public class MapGenerator : MonoBehaviour
     void Update()
     {
         speed = initGameScript.spaceshipSpeed;
+        if (initGameScript.alive == false)
+        {
+            StopCoroutine("MapGen");
+        }
     }
     IEnumerator MapGen()
     {

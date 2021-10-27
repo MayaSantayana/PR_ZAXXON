@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObstacleGenerator : MonoBehaviour
 {
-    [SerializeField] GameObject[] obstacle = new GameObject[3];
+    [SerializeField] GameObject[] obstacle = new GameObject[6];
     [SerializeField] Transform initPos;
     [SerializeField] GameObject initObject;
     InitGameScript initGameScript;
@@ -22,7 +22,7 @@ public class ObstacleGenerator : MonoBehaviour
             int r = Random.Range(0, obstacle.Length);
             if (randNum < 0)
             {
-                float randispY = transform.position.y + Random.Range(1, 6);
+                float randispY = transform.position.y + Random.Range(1f, 6f);
                 float randispZ = transform.position.y + Random.Range(-3f, 3f);
                 Instantiate(obstacle[r], new Vector3(transform.position.x + width + widthDisp, randispY, transform.position.z + randispZ), Quaternion.identity);
             }
@@ -42,6 +42,7 @@ public class ObstacleGenerator : MonoBehaviour
         initGameScript = initObject.GetComponent<InitGameScript>();
         speed = initGameScript.spaceshipSpeed;
         StartCoroutine("Generator");
+        
 
     }
 
@@ -49,5 +50,9 @@ public class ObstacleGenerator : MonoBehaviour
     {
         speed = initGameScript.spaceshipSpeed;
         float waiting = intervalo / speed;
+        if (initGameScript.alive == false)
+        {
+            StopCoroutine("Generator");
+        }
     }
 }
