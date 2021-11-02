@@ -30,8 +30,6 @@ public class MapMove : MonoBehaviour
 
         if (initGameScript.alive == false)
             {
-                StopCoroutine("SpeedIncrease");
-
                 if (speedVar > 0f)
                 {
                     StartCoroutine("slow");
@@ -46,7 +44,7 @@ public class MapMove : MonoBehaviour
 
     IEnumerator slow()
     {
-        speedVar -= 0.01f;
+        speedVar -= 0.005f;
         yield return new WaitForSeconds(0.1f);
     }
 }

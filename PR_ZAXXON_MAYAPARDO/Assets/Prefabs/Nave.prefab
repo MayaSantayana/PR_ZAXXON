@@ -1058,6 +1058,7 @@ GameObject:
   - component: {fileID: 4290758230509439145}
   - component: {fileID: 8315124203262070341}
   - component: {fileID: 1769382496}
+  - component: {fileID: 2856603429417496680}
   m_Layer: 0
   m_Name: Nave
   m_TagString: Untagged
@@ -1092,11 +1093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9c4a65ab56e1f441893ab3415463f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
   ship: {fileID: 8935681958919535169}
   desplSpeed: 0
   initObject: {fileID: 0}
-  rend: {fileID: 8935681957894695895}
 --- !u!136 &4290758230509439145
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1141,3 +1140,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2856603429417496680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935681958919535169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cad673c30ebfcf4287ba873ce1ad6c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ship: {fileID: 0}
+  initObject: {fileID: 0}

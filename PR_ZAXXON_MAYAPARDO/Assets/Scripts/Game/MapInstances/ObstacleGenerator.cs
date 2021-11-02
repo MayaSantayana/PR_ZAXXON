@@ -28,7 +28,7 @@ public class ObstacleGenerator : MonoBehaviour
             }
             if (randNum >= 0)
             {
-                float randispY = transform.position.y + Random.Range(1, 6);
+                float randispY = transform.position.y + Random.Range(1, 3);
                 float randispZ = transform.position.y + Random.Range(-3f, 3f);
                 Instantiate(obstacle[r], new Vector3(transform.position.x - width + widthDisp, randispY, transform.position.z + randispZ), Quaternion.identity);
             }

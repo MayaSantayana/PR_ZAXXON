@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2336938225224566944}
   - component: {fileID: -2197963025291691500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SignMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,7 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8794842457347847151}
   - component: {fileID: 3921258423519389313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 5886298371661023699}
   - component: {fileID: 3299505396711268011}
   - component: {fileID: 1350985942382114651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8570641732673415445}
   - component: {fileID: 1301842802460503349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 8312748471900713835}
   - component: {fileID: 8479317927399288098}
   - component: {fileID: 6769180498104471154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 8620818628407446779}
   - component: {fileID: 8620818628407446772}
   - component: {fileID: 8620818628407446773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 8620818628473638543}
   - component: {fileID: 8620818628473638536}
   - component: {fileID: 8620818628473638537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 8620818628573891054}
   - component: {fileID: 8620818628573891055}
   - component: {fileID: 8620818628573891048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -730,7 +730,7 @@ GameObject:
   - component: {fileID: 8620818628891457514}
   - component: {fileID: 8620818628891457515}
   - component: {fileID: 8620818628891457508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 8620818628957864446}
   - component: {fileID: 8620818628957864447}
   - component: {fileID: 8620818628957864440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 8620818628968307804}
   - component: {fileID: 8620818628968307805}
   - component: {fileID: 8620818628968307806}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 8620818629171880651}
   - component: {fileID: 8620818629171880644}
   - component: {fileID: 8620818629171880645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RBeam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1110,7 +1110,7 @@ GameObject:
   - component: {fileID: 8620818629690240974}
   - component: {fileID: 8620818629690240975}
   - component: {fileID: 8620818629690240968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LBeam
   m_TagString: Untagged
   m_Icon: {fileID: 0}

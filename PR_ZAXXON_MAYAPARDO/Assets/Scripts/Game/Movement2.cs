@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class Movement2 : MonoBehaviour
 {
-    public int health;
-    private int maxHealth;
     [SerializeField] GameObject ship;
     [SerializeField] float desplSpeed;
     [SerializeField] GameObject initObject;
     InitGameScript initGameScript;
-    bool inv = false;
-    public Renderer rend;
 
+    int health;
 
     float limiteR = 7f;
     float limiteL = -7f;
-    float limiteU = 8f;
+    float limiteU = 4f;
     float limiteD = 0f;
 
     bool inLimitH = true;
@@ -62,56 +59,13 @@ public class Movement2 : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        print("He chocao con " + other.gameObject.name);
-        if (other.gameObject.layer == 6)
-        {
-            Hit();        
-        }
-
-        if (other.gameObject.layer == 7)
-        {
-            if (health < maxHealth)
-            {
-                health += 1;
-                Object.Destroy(other);
-            }
-            else
-            {
-                Debug.Log("Full health");
-            }
-        }
-    }
-
-    void Hit()
-    {
-        if ((health > 0) && (inv == false))
-        {
-            health -= 1;
-            print("Your health is " + health);
-            inv = true;
-            rend.enabled = false;
-            Invoke("InvRevoke", 2f);
-        }
-
-        else if (health <= 0)
-        {
-            initGameScript.alive = false;
-        }
-    }
-
-    void InvRevoke()
-    {
-        rend.enabled = true;
-        inv = false;
-    }
+   
 
     void Start()
     {
         initObject = GameObject.Find("GlobalVar");
-        maxHealth = 3;
-        health = 3;
+        
+        health = initGameScript.health;
         print("Your health is " + health);
 
     }
@@ -122,5 +76,26 @@ public class Movement2 : MonoBehaviour
         initGameScript = initObject.GetComponent<InitGameScript>();
         desplSpeed = initGameScript.spaceshipSpeed;
         Move();
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        print("He chocao con " + other.gameObject.name);
+            if (other.gameObject.layer == 6)
+            {
+                initGameScript.Hit();
+            }
+            else if (other.gameObject.layer == 7)
+            {
+                if (initGameScript.health < initGameScript.maxHealth)
+                {
+                    initGameScript.PowerUp();
+                    Object.Destroy(other);
+                }
+                else
+                {
+                    Debug.Log("Full health");
+                }
+            }
     }
 }

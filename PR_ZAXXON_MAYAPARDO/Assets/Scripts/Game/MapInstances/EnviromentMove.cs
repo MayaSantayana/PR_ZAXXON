@@ -8,29 +8,47 @@ public class EnviromentMove : MonoBehaviour
     [SerializeField] GameObject initObject;
     InitGameScript initGameScript;
     [SerializeField] float speed;
-    void move()
-    {
-        speed = initGameScript.spaceshipSpeed;
+    float speedVar = 1f;
 
-        transform.Translate(Vector3.back * Time.deltaTime * speed);
+    void Start()
+    {
+        initObject = GameObject.Find("GlobalVar");
+        initGameScript = initObject.GetComponent<InitGameScript>();
+        speed = initGameScript.spaceshipSpeed;
+    }
+
+    void Update()
+    {
+        transform.Translate(0, 0, -speed * Time.deltaTime * speedVar);
         if (transform.position.z <= -100)
         {
             Vector3 instPos = transform.position;
             Instantiate(enviroment, new Vector3(instPos.x, instPos.y, instPos.z + 400), Quaternion.identity);
             Object.Destroy(enviroment);
         }
-    }
-    void Start()
-    {
-        initObject = GameObject.Find("GlobalVar");
-        initGameScript = initObject.GetComponent<InitGameScript>();
+
+
+        if (initGameScript.alive == false)
+        {
+            if (speedVar > 0f)
+            {
+                StartCoroutine("slow");
+            }
+            else if (speedVar < 0f)
+            {
+                StopCoroutine("slow");
+                speedVar = 0;
+            }
+
         speed = initGameScript.spaceshipSpeed;
-        move();
-    }
 
-    void Update()
+        }
+    }
+    IEnumerator slow()
     {
-
+        speedVar -= 0.005f;
+        yield return new WaitForSeconds(0.1f);
     }
+
 }
 
