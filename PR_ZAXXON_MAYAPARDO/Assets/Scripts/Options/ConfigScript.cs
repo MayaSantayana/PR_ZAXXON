@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class UIScript : MonoBehaviour
+public class ConfigScript : MonoBehaviour
 {
+    private Slider volumeSlider;
     // Start is called before the first frame update
     void Start()
     {
-        
+        volumeSlider.value = GameManager.volumeMusic;
     }
 
     // Update is called once per frame
@@ -17,9 +17,9 @@ public class UIScript : MonoBehaviour
     {
         
     }
-
-    public void CargarEscena(int escena)
+    public void CambiarVolumenMusica()
     {
-        SceneManager.LoadScene(escena);
+        GameManager.volumeMusic = volumeSlider.value;
     }
+
 }

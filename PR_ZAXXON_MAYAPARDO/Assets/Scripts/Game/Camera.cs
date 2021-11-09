@@ -5,10 +5,10 @@ using UnityEngine;
 public class Camera : MonoBehaviour
 {
     [SerializeField] Transform playerPosition;
-    [SerializeField] float smoothVelocity = 0.1F;
+    [SerializeField] float smoothVelocity = 0.01F;
     [SerializeField] Vector3 camaraVelocity = Vector3.zero;
-    [SerializeField] float camDist = -4f;
-    [SerializeField] float camHeight = 1f;
+    [SerializeField] float camDist = -3.5f;
+    [SerializeField] float camHeight = 3f;
 
     void Update()
     {

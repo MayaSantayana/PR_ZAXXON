@@ -65,7 +65,7 @@ public class Movement2 : MonoBehaviour
     {
         initObject = GameObject.Find("GlobalVar");
         
-        health = initGameScript.health;
+        //health = initGameScript.health;
         print("Your health is " + health);
 
     }

@@ -26,6 +26,7 @@ public class DayNightCycle : MonoBehaviour
     [Header("OtherLighting")]
     public AnimationCurve lightingIntensityMult;
     public AnimationCurve lightingReflectionsMult;
+    public Gradient fogColor;
 
     void Start()
     {
@@ -56,6 +57,7 @@ public class DayNightCycle : MonoBehaviour
         //light color
         sun.color = sunColor.Evaluate(time);
         moon.color = moonColor.Evaluate(time);
+        moon.color = moonColor.Evaluate(time);
 
         //enable / disable sun
         if (sun.intensity == 0 && sun.gameObject.activeInHierarchy)
@@ -74,5 +76,6 @@ public class DayNightCycle : MonoBehaviour
         //ligthing and reflection intensity
         RenderSettings.ambientIntensity = lightingIntensityMult.Evaluate(time);
         RenderSettings.reflectionIntensity = lightingReflectionsMult.Evaluate(time);
+        RenderSettings.fogColor = fogColor.Evaluate(time);
     }
 }

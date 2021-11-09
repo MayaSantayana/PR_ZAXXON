@@ -29,12 +29,16 @@ public class InitGameScript : MonoBehaviour
 
     //Score
     static float score;
+    public int extraScore;
+    public int multiplicator;
 
     //UI
     public Sprite[] healthbarArray;
     [SerializeField] Text scoreText;
+    [SerializeField] Text levelText;
     public Image healthbar;
     public int spritesPos = 0;
+    
 
     //GameOverHolds
     float startTimeH = 0f;
@@ -67,17 +71,15 @@ public class InitGameScript : MonoBehaviour
         StartCoroutine("SpeedIncrease");
         spaceshipSpeed = 50f;
         health = maxHealth;
-        Debug.Log("Your health is " + health);
-        float tiempo = Time.time;
-        print(Mathf.Round(tiempo));
-        score = Mathf.Round(tiempo);
-        scoreText.text = "Score: " + score.ToString();
+        multiplicator = 1;
+
     }
 
     void Update()
     {
         if (alive == false)
             OnDeath();
+        UpdateUI();
 
     }
 
@@ -116,6 +118,7 @@ public class InitGameScript : MonoBehaviour
             spritesPos++;
             healthbar.sprite = healthbarArray[spritesPos];
             print("Your health is " + health);
+            multiplicator = 1;
             inv = true;
             rend.enabled = false;
             Invoke("InvRevoke", 2f);
@@ -139,46 +142,14 @@ public class InitGameScript : MonoBehaviour
         healthbar.sprite = healthbarArray[spritesPos];    
     }
 
-    /*void OnTriggerEnter(Collider other)
+    void UpdateUI()
     {
-        print("He chocao con " + other.gameObject.name);
-        if (other.gameObject.layer == 6)
-        {
-            if ((health > 0) && (inv == false))
-            {
-                health -= 1;
-                spritesPos++;
-                healthbar.sprite = healthbarArray[spritesPos];
-                print("Your health is " + health);
-                inv = true;
-                rend.enabled = false;
-                Invoke("InvRevoke", 2f);
-            }
 
-            else if (health <= 0)
-            {
-                alive = false;
-            }
-        }
+        //float tiempo = Time.timeSinceLevelLoad;
+        float tiempo = Time.time;
+        score = /*Mathf.Round(tiempo) * spaceshipSpeed +*/ extraScore * multiplicator;
 
-        if (other.gameObject.layer == 7)
-        {
-            if (health < maxHealth)
-            {
-                health += 1;
-                spritesPos--;
-                healthbar.sprite = healthbarArray[spritesPos];
-                Object.Destroy(other);
-            }
-            else
-            {
-                Debug.Log("Full health");
-            }
-        }
+        scoreText.text = "Score: " + Mathf.Round(score) + "x" + multiplicator;
+        levelText.text = "Level: " + level.ToString();
     }
-    void InvRevoke()
-    {
-        rend.enabled = true;
-        inv = false;
-    }*/
 }
