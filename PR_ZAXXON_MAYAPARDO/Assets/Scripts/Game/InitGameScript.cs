@@ -28,7 +28,7 @@ public class InitGameScript : MonoBehaviour
     public float spaceshipSpeed = 50f;
 
     //Score
-    static int score;
+    static float score;
 
     //UI
     public Sprite[] healthbarArray;
@@ -70,7 +70,8 @@ public class InitGameScript : MonoBehaviour
         Debug.Log("Your health is " + health);
         float tiempo = Time.time;
         print(Mathf.Round(tiempo));
-        score = ("Score: " + Mathf.Round(tiempo))
+        score = Mathf.Round(tiempo);
+        scoreText.text = "Score: " + score.ToString();
     }
 
     void Update()
