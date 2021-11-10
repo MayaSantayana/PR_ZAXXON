@@ -19,6 +19,20 @@ public class Movement2 : MonoBehaviour
     bool inLimitH = true;
     bool inLimitV = true;
 
+    void Start()
+    {
+        initObject = GameObject.Find("GlobalVar");
+    }
+
+    void Update()
+    {
+
+        initGameScript = initObject.GetComponent<InitGameScript>();
+        desplSpeed = initGameScript.spaceshipSpeed;
+        Move();
+    }
+
+    //MOVEMENT
     void Move()
     {
         float PosX = transform.position.x;
@@ -26,7 +40,6 @@ public class Movement2 : MonoBehaviour
         float desplH = Input.GetAxis("Horizontal");
         float desplV = Input.GetAxis("Vertical");
         float rot = Input.GetAxis("Horizontal-J2");
-        //print(rot);
 
         if (PosX < limiteL && desplH < 0 || PosX > limiteR && desplH > 0)
         {
@@ -59,28 +72,10 @@ public class Movement2 : MonoBehaviour
         }
     }
 
-   
-
-    void Start()
-    {
-        initObject = GameObject.Find("GlobalVar");
-        
-        //health = initGameScript.health;
-        print("Your health is " + health);
-
-    }
-
-    void Update()
-    {
-
-        initGameScript = initObject.GetComponent<InitGameScript>();
-        desplSpeed = initGameScript.spaceshipSpeed;
-        Move();
-    }
-
+    //COLLISIONS
     void OnTriggerEnter(Collider other)
     {
-        print("He chocao con " + other.gameObject.name);
+        //print("He chocao con " + other.gameObject.name);
             if (other.gameObject.layer == 6)
             {
                 initGameScript.Hit();

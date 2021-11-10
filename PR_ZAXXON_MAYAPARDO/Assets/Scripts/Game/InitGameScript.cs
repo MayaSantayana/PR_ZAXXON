@@ -16,7 +16,7 @@ public class InitGameScript : MonoBehaviour
     public bool alive = true;
     public int maxHealth = 3;
     public int health;
-    [SerializeField] bool inv = false;
+    public bool inv = false;
 
     //Level
     int level = 1;
@@ -41,9 +41,8 @@ public class InitGameScript : MonoBehaviour
     
 
     //GameOverHolds
-    float startTimeH = 0f;
-    float startTimeR = 0f;
-    float holdTime = 5.0f;
+    int restartTimer = 0;
+    [SerializeField] int holdTime = 4;
 
     IEnumerator SpeedIncrease()
     {
@@ -51,15 +50,6 @@ public class InitGameScript : MonoBehaviour
         for (level = 1; level <= maxLevel; level++)
         {
             spaceshipSpeed = spaceshipSpeed + speedIncrease;
-
-            if (level == maxLevel)
-            {
-                Debug.Log("Level " + level + ". Max speed.");
-            }
-            else
-            {
-                Debug.Log("Level " + level + ". Speed: " + spaceshipSpeed);
-            }
             yield return new WaitForSeconds(levelTime);
 
         }
@@ -68,45 +58,43 @@ public class InitGameScript : MonoBehaviour
 
     void Start()
     {
+        score = 0;
+        restartTimer = 0;
         StartCoroutine("SpeedIncrease");
         spaceshipSpeed = 50f;
         health = maxHealth;
         multiplicator = 1;
-
     }
 
     void Update()
     {
         if (alive == false)
+        {
             OnDeath();
+        }
+
         UpdateUI();
 
-    }
-
-    public void OnDeath()
-    {
-        print("Game Over");
-        ship.SetActive(false);
-        StopCoroutine("SpeedIncrease");
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            startTimeH += 1;
-            if (startTimeH >= holdTime)
-            {
-                //SceneManager.LoadScene("HighScores"); 
-                print("highscores");
-            }
-        }        
-        
         if (Input.GetKeyDown(KeyCode.R))
         {
-            startTimeR = Time.time;
-            if (startTimeR >= holdTime)
-            {
-                SceneManager.LoadScene("Juego");
-                print("restart");
-            }
+            StartCoroutine("Restart");
+        }        
+        
+        if (Input.GetKeyUp(KeyCode.R))
+        {
+            StopCoroutine("Restart");
+            restartTimer = 0;
         }
+    }
+
+
+    //Functions
+    public void OnDeath()
+    {
+        ship.SetActive(false);
+        StopCoroutine("SpeedIncrease");      
+        
+
 
     }
 
@@ -117,10 +105,9 @@ public class InitGameScript : MonoBehaviour
             health -= 1;
             spritesPos++;
             healthbar.sprite = healthbarArray[spritesPos];
-            print("Your health is " + health);
             multiplicator = 1;
             inv = true;
-            rend.enabled = false;
+            //StartCoroutine("Blinking")
             Invoke("InvRevoke", 2f);
         }
         else if (health <= 0)
@@ -131,8 +118,8 @@ public class InitGameScript : MonoBehaviour
 
     void InvRevoke()
     {
-        rend.enabled = true;
         inv = false;
+        //StopCoroutine("Blinking")
     }
 
     public void PowerUp()
@@ -145,11 +132,26 @@ public class InitGameScript : MonoBehaviour
     void UpdateUI()
     {
 
-        //float tiempo = Time.timeSinceLevelLoad;
-        float tiempo = Time.time;
+        float tiempo = Time.timeSinceLevelLoad;
+        //float tiempo = Time.time;
         score = (Mathf.Round(tiempo) * spaceshipSpeed + extraScore) * multiplicator;
 
         scoreText.text = "Score: " + Mathf.Round(score) + "x" + multiplicator;
         levelText.text = "Level: " + level.ToString();
+    }
+
+    IEnumerator Restart()
+    {
+        for( ; ; )
+        {
+            restartTimer++;
+            if (restartTimer >= holdTime)
+            {
+                SceneManager.LoadScene(1);
+                print("restart");
+            }
+            print(restartTimer);
+            yield return new WaitForSeconds(1f);
+        }
     }
 }

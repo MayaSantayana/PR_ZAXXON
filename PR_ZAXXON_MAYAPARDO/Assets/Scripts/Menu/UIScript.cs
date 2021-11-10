@@ -3,22 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class UIScript : MonoBehaviour
 {
+    //InitGameScript
+    [SerializeField] GameObject initObject;
+    InitGameScript initGameScript;
+
     //Menu sections
     [SerializeField] GameObject mainMenu;
     [SerializeField] GameObject optionsMenu;
     [SerializeField] GameObject highscoresMenu;
+    [SerializeField] GameObject deathScreenMenu;
+    [SerializeField] GameObject hudMenu;
 
     //Buttons
     public GameObject mainFirstButton;
     public GameObject optionsFirstButton;
-    public GameObject optionsClosedButton;
+    public Button optionsClosedButton;
     public GameObject highscoresClosedButton;
+    public Button restartBTN;
+
+    //Scenes
+    int sceneNum;
 
     
-
+    //START
     void Start()
     {
         Scene scene = SceneManager.GetActiveScene();
@@ -30,17 +41,24 @@ public class UIScript : MonoBehaviour
             MainMenuSelection();
         }
 
-        print(sceneNum);
+        //print(sceneNum);
 
+        if (sceneNum == 1)
+        {
+            initObject = GameObject.Find("GlobalVar");
+        }
     }
 
+    //UPDATE
     void Update()
     {
         Scene scene = SceneManager.GetActiveScene();
-        int sceneNum = scene.buildIndex;
-        if (sceneNum == 1 && Input.GetButtonDown("Pause"))
+        sceneNum = scene.buildIndex;
+        initGameScript = initObject.GetComponent<InitGameScript>();
+
+        if (sceneNum == 1)
         {
-            PauseUnpause();
+            GameScreens();
         }
 
         BackButton();
@@ -62,6 +80,49 @@ public class UIScript : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(mainFirstButton);
     }
 
+    //Game screens
+    void GameScreens()
+    {
+        if (initGameScript.alive == true && Input.GetButtonDown("Pause"))
+        {
+            PauseUnpause();
+        }
+
+        if (initGameScript.alive == false && !deathScreenMenu.activeInHierarchy)
+        {
+            DeathScreen();
+            
+        }
+    }
+
+    //Pause Menu
+    public void PauseUnpause()
+    {
+        if (!mainMenu.activeInHierarchy && !optionsMenu.activeInHierarchy)
+        {
+            mainMenu.SetActive(true);
+            MainMenuSelection();
+            Time.timeScale = 0f;
+        }
+
+        else /*if (mainMenu.activeInHierarchy || optionsMenu.activeInHierarchy)*/
+        {
+            mainMenu.SetActive(false);
+            optionsMenu.SetActive(false);
+            Time.timeScale = 1f;
+        }
+    }
+
+
+    //Death Screen
+
+    public void DeathScreen()
+    {
+        deathScreenMenu.SetActive(true);
+        hudMenu.SetActive(false);
+        restartBTN.Select();
+    }
+
 
     //Buttons
     public void CargarEscena(int escena)
@@ -77,7 +138,8 @@ public class UIScript : MonoBehaviour
             optionsMenu.SetActive(false);
 
             EventSystem.current.SetSelectedGameObject(null);
-            EventSystem.current.SetSelectedGameObject(optionsClosedButton);
+            //EventSystem.current.SetSelectedGameObject(optionsClosedButton);
+            optionsClosedButton.Select();
         }
 
         if (highscoresMenu.activeInHierarchy)
@@ -117,28 +179,22 @@ public class UIScript : MonoBehaviour
     //Back input
     void BackButton()
     {
+        if (mainMenu.activeInHierarchy && sceneNum==1 && Input.GetButtonDown("Cancel"))
+        {
+            PauseUnpause();
+        }
+
         if ((optionsMenu.activeInHierarchy || highscoresMenu.activeInHierarchy) && Input.GetButtonDown("Cancel"))
         {
             ChangeMenuMain();
-        }
+            optionsClosedButton.Select();
+        }        
+        
+
     }
 
 
-    //Pause Menu
-    public void PauseUnpause()
-    {
-        if (!mainMenu.activeInHierarchy)
-        {
-            mainMenu.SetActive(true);
-            MainMenuSelection();
-            Time.timeScale = 0f;
-        }
 
-        else if (mainMenu.activeInHierarchy || optionsMenu.activeInHierarchy)
-        {
-            mainMenu.SetActive(false);
-            optionsMenu.SetActive(false);
-            Time.timeScale = 1f;
-        }
-    }
+
+
 }
