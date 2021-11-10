@@ -147,7 +147,7 @@ public class InitGameScript : MonoBehaviour
 
         //float tiempo = Time.timeSinceLevelLoad;
         float tiempo = Time.time;
-        score = /*Mathf.Round(tiempo) * spaceshipSpeed +*/ extraScore * multiplicator;
+        score = (Mathf.Round(tiempo) * spaceshipSpeed + extraScore) * multiplicator;
 
         scoreText.text = "Score: " + Mathf.Round(score) + "x" + multiplicator;
         levelText.text = "Level: " + level.ToString();
