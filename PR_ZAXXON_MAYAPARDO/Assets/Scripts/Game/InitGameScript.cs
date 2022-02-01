@@ -100,7 +100,7 @@ public class InitGameScript : MonoBehaviour
 
     public void Hit()
     {
-        if ((health > 0) && (inv == false))
+        if ((health >= 1) && (inv == false))
         {
             health -= 1;
             spritesPos++;
@@ -110,7 +110,7 @@ public class InitGameScript : MonoBehaviour
             //StartCoroutine("Blinking")
             Invoke("InvRevoke", 2f);
         }
-        else if (health <= 0)
+        else
         {
             alive = false;
         }

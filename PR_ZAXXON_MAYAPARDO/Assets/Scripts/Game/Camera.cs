@@ -10,7 +10,7 @@ public class Camera : MonoBehaviour
     [SerializeField] float camDist = -3.5f;
     [SerializeField] float camHeight = 3f;
 
-    void Update()
+    void FixedUpdate()
     {
         float newPosZ = playerPosition.position.z + camDist;
         float newPosY = playerPosition.position.y + camHeight;
