@@ -9,8 +9,10 @@ public class InitGameScript : MonoBehaviour
     //-----------GLOBAL VARIABLES-------------
 
     //ShipGameObject
-    public Renderer rend;
     [SerializeField] GameObject ship;
+    public GameObject[] shipComps;
+    Collider shipColl;
+    public MeshRenderer[] shipRend;
 
     //ShipHealth
     public bool alive = true;
@@ -58,8 +60,18 @@ public class InitGameScript : MonoBehaviour
 
     void Start()
     {
+        shipColl = ship.GetComponent<Collider>();
+        shipComps = GameObject.FindGameObjectsWithTag("ShipComps");
+
+        for (int i = 0; i < shipComps.Length; i++)
+        {
+            shipRend[i] = shipComps[i].GetComponent<MeshRenderer>();
+            //print(i);
+        }
+
         score = 0;
         restartTimer = 0;
+        
         StartCoroutine("SpeedIncrease");
         spaceshipSpeed = 50f;
         health = maxHealth;
@@ -107,7 +119,9 @@ public class InitGameScript : MonoBehaviour
             healthbar.sprite = healthbarArray[spritesPos];
             multiplicator = 1;
             inv = true;
-            //StartCoroutine("Blinking")
+            //shipColl.isTrigger = true;
+            EnableRenderer(shipRend, false);
+            //StartCoroutine("Blinking");
             Invoke("InvRevoke", 2f);
         }
         else
@@ -119,7 +133,10 @@ public class InitGameScript : MonoBehaviour
     void InvRevoke()
     {
         inv = false;
-        //StopCoroutine("Blinking")
+        //shipColl.isTrigger = false;
+
+        EnableRenderer(shipRend, true);
+        //StopCoroutine("Blinking");
     }
 
     public void PowerUp()
@@ -152,6 +169,33 @@ public class InitGameScript : MonoBehaviour
             }
             print(restartTimer);
             yield return new WaitForSeconds(1f);
+        }
+    }
+
+    void EnableRenderer(Renderer[] rd, bool enable)
+    {
+        for (int i = 0; i < rd.Length; i++)
+        {
+            rd[i].enabled = enable;
+        }
+    }
+
+    IEnumerator Blinking()
+    {
+        for( ; ; )
+        {
+            int x = 1;
+            if (x%2 == 1)
+            {
+                EnableRenderer(shipRend, false);
+            }
+            else
+            {
+                EnableRenderer(shipRend, true);
+            }
+            x++;
+
+            yield return new WaitForSeconds(0.5f);
         }
     }
 }

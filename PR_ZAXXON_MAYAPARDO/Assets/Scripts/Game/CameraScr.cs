@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class CameraScr : MonoBehaviour
 {
     [SerializeField] Transform playerPosition;
     [SerializeField] float smoothVelocity = 0.01F;

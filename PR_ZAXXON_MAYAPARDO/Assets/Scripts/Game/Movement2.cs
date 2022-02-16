@@ -17,7 +17,7 @@ public class Movement2 : MonoBehaviour
     //Player
     int health;
     [SerializeField]float moveSpeed;
-    float moveDeacTime = 1f;
+    float moveDeacTime = 0.2f;
     float moveDeacX;
     float moveDeacY;
     float angle;
@@ -29,11 +29,11 @@ public class Movement2 : MonoBehaviour
     //Map Limits
     float limiteR = 7f;
     float limiteL = -7f;
-    float limiteU = 4f;
-    float limiteD = 0f;
+    //float limiteU = 4f;
+    //float limiteD = 0f;
 
     bool inLimitH = true;
-    bool inLimitV = true;
+    //bool inLimitV = true;
 
     void Start()
     {
@@ -57,11 +57,11 @@ public class Movement2 : MonoBehaviour
     void Move()
     {
         float PosX = transform.position.x;
-        float PosY = transform.position.y;
+        //float PosY = transform.position.y;
         float desplH = Input.GetAxis("Horizontal");
         float desplV = Input.GetAxis("Vertical");
-        float targetAngle = 40 * desplH;
-
+        //float targetAngle = 40 * desplH;
+        
 
         if (PosX < limiteL && desplH < 0 || PosX > limiteR && desplH > 0)
         {
@@ -70,9 +70,21 @@ public class Movement2 : MonoBehaviour
         else
         {
             inLimitH = true;
-        }        
+        }
 
-        if (PosY < limiteD && desplV < 0 || PosY > limiteU && desplV > 0)
+        if (inLimitH && desplH != 0f)
+        {
+            rb.AddForce(Vector3.right * desplH * moveSpeed * 3f);
+        }
+        else
+        {
+            rb.velocity = new Vector3(
+                Mathf.SmoothDamp(rb.velocity.x, 0f, ref moveDeacX, moveDeacTime), 
+                rb.velocity.y, 
+                0f);
+        }
+
+        /*if (PosY < limiteD && desplV < 0 || PosY > limiteU && desplV > 0)
         {
             inLimitV = false;
         }
@@ -81,19 +93,7 @@ public class Movement2 : MonoBehaviour
             inLimitV = true;
         }
 
-
-
-        if (inLimitH && desplH != 0f)
-        {
-            rb.AddForce(Vector3.right * desplH * moveSpeed);
-        }
-        else
-        {
-            rb.velocity = new Vector3(
-                Mathf.SmoothDamp(rb.velocity.x, 0f, ref moveDeacX, moveDeacTime), rb.velocity.y, 0f);
-        }
-
-        /*if (inLimitV && desplV != 0f)
+        if (inLimitV && desplV != 0f)
         {
             rb.AddForce(Vector3.up * Time.deltaTime * desplV * 100f * moveSpeed);
         }
@@ -102,7 +102,7 @@ public class Movement2 : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x, 0f, 0f);
         }*/
 
-        if( desplH == 0f && desplV == 0f)
+        if ( desplH == 0f && desplV == 0f)
         {
             rb.velocity = new Vector3(
                 Mathf.SmoothDamp(rb.velocity.x, 0f, ref moveDeacX, moveDeacTime),
@@ -110,31 +110,30 @@ public class Movement2 : MonoBehaviour
                 0f);
         }
 
-        angle = Mathf.SmoothDamp(transform.rotation.x, desplH * 20f, ref smoothVel, smoothTime);
-        transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        /*angle = Mathf.SmoothDamp(transform.rotation.x, desplH * 20f, ref smoothVel, smoothTime);
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);*/
 
         animator.SetFloat("MoveDir", desplH);
     }
 
     //COLLISIONS
-    void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        //print("He chocao con " + other.gameObject.name);
-            if (other.gameObject.layer == 6)
+        if (collision.gameObject.layer == 6)
+        {
+            initGameScript.Hit();
+        }
+        else if (collision.gameObject.layer == 7)
+        {
+            if (initGameScript.health < initGameScript.maxHealth)
             {
-                initGameScript.Hit();
+                initGameScript.PowerUp();
+                Object.Destroy(collision.gameObject);
             }
-            else if (other.gameObject.layer == 7)
+            else
             {
-                if (initGameScript.health < initGameScript.maxHealth)
-                {
-                    initGameScript.PowerUp();
-                    Object.Destroy(other);
-                }
-                else
-                {
-                    Debug.Log("Full health");
-                }
+                Debug.Log("Full health");
             }
+        }
     }
 }
