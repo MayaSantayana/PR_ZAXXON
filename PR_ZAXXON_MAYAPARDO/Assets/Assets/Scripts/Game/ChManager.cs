@@ -17,23 +17,23 @@ public class ChManager : MonoBehaviour
     //Player
     int health;
     [SerializeField]float moveSpeed;
-    float moveDeacTime = 0.2f;
+    [SerializeField] float moveMult;
+    float moveDeacTime = 0.8f;
     float moveDeacX;
     float moveDeacY;
-    float angle;
-
-    float smoothTime = 2f;
-    float smoothVel = 0f;
-
 
     //Map Limits
     float limiteR = 7f;
     float limiteL = -7f;
-    //float limiteU = 4f;
-    //float limiteD = 0f;
-
     bool inLimitH = true;
-    //bool inLimitV = true;
+
+    //Hover
+    public float multiplier = 10;
+
+    public Transform[] anchors = new Transform[4];
+    RaycastHit[] hits = new RaycastHit[4];
+
+    #region START-UPDATE
 
     void Start()
     {
@@ -50,19 +50,23 @@ public class ChManager : MonoBehaviour
     }
     void FixedUpdate()
     {
+        for (int i = 0; i < 4; i++)
+            ApplyForce(anchors[i], hits[i]);
+
         Move();
     }
+    #endregion
 
-    //MOVEMENT
+    #region MOVEMENT
+
+    //Control
     void Move()
     {
         float PosX = transform.position.x;
-        //float PosY = transform.position.y;
         float desplH = Input.GetAxis("Horizontal");
         float desplV = Input.GetAxis("Vertical");
-        //float targetAngle = 40 * desplH;
-        
 
+        //Limits
         if (PosX < limiteL && desplH < 0 || PosX > limiteR && desplH > 0)
         {
             inLimitH = false;
@@ -72,9 +76,11 @@ public class ChManager : MonoBehaviour
             inLimitH = true;
         }
 
+
+        //Move inputs
         if (inLimitH && desplH != 0f)
         {
-            rb.AddForce(Vector3.right * desplH * moveSpeed * 3f);
+            rb.AddForce(Vector3.right * desplH * moveSpeed * moveMult);
         }
         else
         {
@@ -92,12 +98,23 @@ public class ChManager : MonoBehaviour
                 0f);
         }
 
-        /*angle = Mathf.SmoothDamp(transform.rotation.x, desplH * 20f, ref smoothVel, smoothTime);
-        transform.rotation = Quaternion.Euler(0f, 0f, angle);*/
-
         animator.SetFloat("MoveDir", desplH);
     }
 
+    //Hover
+    void ApplyForce(Transform anchor, RaycastHit hit)
+    {
+        if (Physics.Raycast(anchor.position, -anchor.up, out hit))
+        {
+            float force = 0;
+            force = Mathf.Abs(1 / (hit.point.y - anchor.position.y));
+            rb.AddForceAtPosition(transform.up * force * multiplier, anchor.position, ForceMode.Acceleration);
+        }
+    }
+
+    #endregion
+
+    #region COLLISIONS
     //COLLISIONS
     private void OnCollisionEnter(Collision collision)
     {
@@ -118,4 +135,5 @@ public class ChManager : MonoBehaviour
             }
         }
     }
+    #endregion
 }

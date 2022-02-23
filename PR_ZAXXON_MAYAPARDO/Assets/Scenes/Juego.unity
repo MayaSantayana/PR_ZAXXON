@@ -2228,7 +2228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &847562640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3354,10 +3354,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_Animations.Array.data[0]
-      value: 
-      objectReference: {fileID: 1827226128182048838, guid: 5c9011f79fde22f458475fb9f5067204, type: 3}
     - target: {fileID: -5593189460080489439, guid: e8e83a83e9e54d249a31084a700ca77b, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4752,98 +4748,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 383504407621247813, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 979131355100694890, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 984412468071915297, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 1664473121682542514, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 2101102155091700453, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2101102155091700453, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2564851975050449092, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 4193940327054678745, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 4803290989501280064, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 5811241439563913193, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 6326573610524574525, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 6543967976491291834, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 6840166059762013403, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 6875630707443062548, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
+    - target: {fileID: 7048422295300107896, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
+      propertyPath: moveMult
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7048422295300107896, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7048422295300107896, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: moveSpeed
-      value: 300
+      propertyPath: multiplier
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 7048422295300107897, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7048422295300107898, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_Mass
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 7048422295300107898, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_UseGravity
+      propertyPath: m_Drag
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7048422295300107898, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_Constraints
-      value: 120
+      propertyPath: m_Mass
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048422295300107898, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
+      propertyPath: m_AngularDrag
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7048422295300107899, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
       propertyPath: chargeMeter
       value: 
       objectReference: {fileID: 849911278}
-    - target: {fileID: 7048422295300107899, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: chargeSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111661389023540935, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7681687510199448771, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4887,26 +4819,6 @@ PrefabInstance:
     - target: {fileID: 7681687510199448771, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7858903850926516109, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 7892116777182971620, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 8216391368106027771, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 8635053205289379276, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
-      objectReference: {fileID: 0}
-    - target: {fileID: 8682189162012319110, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}
-      propertyPath: m_TagString
-      value: ShipComps
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10026e97a64cd6049b8ad9bb505949f6, type: 3}

@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &121623932860241953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8346323063801506905}
+  m_Layer: 0
+  m_Name: BR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8346323063801506905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121623932860241953}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6, y: -0.6, z: -0.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7681687510199448771}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &383504407621247813
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,7 +108,7 @@ GameObject:
   - component: {fileID: 3029363965674654118}
   m_Layer: 0
   m_Name: Glass_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,7 +189,7 @@ GameObject:
   - component: {fileID: 3208619876571393345}
   m_Layer: 0
   m_Name: Flap_L_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,6 +257,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1691686954966156684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5055369102845706450}
+  m_Layer: 0
+  m_Name: FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5055369102845706450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691686954966156684}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6, y: -0.6, z: 2.06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7681687510199448771}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2564851975050449092
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +300,7 @@ GameObject:
   - component: {fileID: 7047318478426092872}
   m_Layer: 0
   m_Name: Seat_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -389,7 +449,7 @@ GameObject:
   - component: {fileID: 3780817614487619570}
   m_Layer: 0
   m_Name: Handle_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +530,7 @@ GameObject:
   - component: {fileID: 8860187217809238994}
   m_Layer: 0
   m_Name: Flap_R_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -548,7 +608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3186452866682042728}
   m_Layer: 0
-  m_Name: Anchor_B
+  m_Name: BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -562,7 +622,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5657125580430563132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.46, z: -0.92}
+  m_LocalPosition: {x: -0.6, y: -0.6, z: -0.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7681687510199448771}
@@ -612,7 +672,7 @@ GameObject:
   - component: {fileID: 67999702783526837}
   m_Layer: 0
   m_Name: Wings_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -725,7 +785,7 @@ GameObject:
   - component: {fileID: 1224895576438522296}
   m_Layer: 0
   m_Name: Pivot_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -860,6 +920,8 @@ Transform:
   - {fileID: 6155727915427759790}
   - {fileID: 3186452866682042728}
   - {fileID: 7388474305689226378}
+  - {fileID: 8346323063801506905}
+  - {fileID: 5055369102845706450}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
@@ -907,11 +969,11 @@ Rigidbody:
   m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 104
+  m_CollisionDetection: 1
 --- !u!114 &7048422295300107899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,7 +991,7 @@ MonoBehaviour:
   cannon: {fileID: 7858903850926516109}
   loaded: 1
   chargeMeter: {fileID: 0}
-  chargeSpeed: 0
+  chargeSpeed: 50
 --- !u!114 &7048422295300107896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -943,7 +1005,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ship: {fileID: 7048422295300107897}
-  moveSpeed: 0
+  moveSpeed: 300
+  multiplier: 1
+  anchors:
+  - {fileID: 7388474305689226378}
+  - {fileID: 3186452866682042728}
+  - {fileID: 5055369102845706450}
+  - {fileID: 8346323063801506905}
 --- !u!1 &7155277591844514293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1117,7 @@ GameObject:
   - component: {fileID: 6350922812211160926}
   m_Layer: 0
   m_Name: Details_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1127,7 +1195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7388474305689226378}
   m_Layer: 0
-  m_Name: Anchor_F
+  m_Name: FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1141,7 +1209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7989144056892859992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.46, z: 2.06}
+  m_LocalPosition: {x: -0.6, y: -0.6, z: 2.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7681687510199448771}
@@ -1160,7 +1228,7 @@ GameObject:
   - component: {fileID: 2857221971892009138}
   m_Layer: 0
   m_Name: Engine_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1241,7 +1309,7 @@ GameObject:
   - component: {fileID: 3379687531689502375}
   m_Layer: 0
   m_Name: Main_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1322,7 +1390,7 @@ GameObject:
   - component: {fileID: 7111661389023540935}
   m_Layer: 0
   m_Name: Engine2_geo
-  m_TagString: Untagged
+  m_TagString: ShipComps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
