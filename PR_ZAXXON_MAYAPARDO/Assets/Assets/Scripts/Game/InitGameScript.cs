@@ -63,11 +63,11 @@ public class InitGameScript : MonoBehaviour
         shipColl = ship.GetComponent<Collider>();
         shipComps = GameObject.FindGameObjectsWithTag("ShipComps");
 
-        for (int i = 0; i < shipComps.Length; i++)
+        /*for (int i = 0; i < shipComps.Length; i++)
         {
             shipRend[i] = shipComps[i].GetComponent<MeshRenderer>();
             //print(i);
-        }
+        }*/
 
         score = 0;
         restartTimer = 0;

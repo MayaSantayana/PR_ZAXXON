@@ -10576,8 +10576,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7048422295300107897}
   serializedVersion: 2
-  m_Mass: 140
-  m_Drag: 1
+  m_Mass: 70
+  m_Drag: 0.5
   m_AngularDrag: 6
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -10616,15 +10616,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 7048422295300107897}
   moveSpeed: 300
-  moveMult: 8
-  multiplier: 2.5
+  moveMult: 10
+  multiplier: 3
   anchors:
   - {fileID: 7388474305689226378}
   - {fileID: 3186452866682042728}
   - {fileID: 5055369102845706450}
   - {fileID: 8346323063801506905}
   dustParticles: {fileID: 0}
-  engineFire: {fileID: 0}
+  engineFire_L: {fileID: 5869182447005069735}
+  engineFire_R: {fileID: 3450282701596450870}
 --- !u!1 &7155277591844514293
 GameObject:
   m_ObjectHideFlags: 0
