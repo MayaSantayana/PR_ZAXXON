@@ -12,13 +12,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - SolidGround
   - Water
   - UI
   - Obstacle
   - PowerUp
   - Crate
-  - 
+  - Deco
   - 
   - 
   - 

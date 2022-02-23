@@ -33,6 +33,11 @@ public class ChManager : MonoBehaviour
     public Transform[] anchors = new Transform[4];
     RaycastHit[] hits = new RaycastHit[4];
 
+    //Particles
+    [SerializeField] ParticleSystem dustParticles;
+    [SerializeField] ParticleSystem engineFire_L;
+    [SerializeField] ParticleSystem engineFire_R;
+
     #region START-UPDATE
 
     void Start()
@@ -132,6 +137,15 @@ public class ChManager : MonoBehaviour
             else
             {
                 Debug.Log("Full health");
+            }
+        }
+
+        if (collision.gameObject.layer == 3)
+        {
+            foreach (ContactPoint contact in collision.contacts)
+            {
+                //Instantiate your particle system here.
+                Instantiate(dustParticles, contact.point, Quaternion.identity);
             }
         }
     }

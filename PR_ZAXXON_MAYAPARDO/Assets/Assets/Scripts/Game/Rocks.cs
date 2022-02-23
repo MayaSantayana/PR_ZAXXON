@@ -1,0 +1,10 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Rocks
+{
+    public Mesh[] mesh;
+    bool isDangerous;
+    int sizeMult;
+}
