@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1526; Version 2009; 64bit' Language: 'es' Physical Memory: 7367 MB
+OS: 'Windows 10 Pro Education; OS build 19042.1526; Version 2009; 64bit' Language: 'es' Physical Memory: 16296 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,134 +11,1213 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/mayas/Documents/GitHub/PR_ZAXXON/PR_ZAXXON_MAYAPARDO
+C:/Users/ani/Documents/MayaPardo/Entornos/PR_ZAXXON/PR_ZAXXON_MAYAPARDO
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57658
-Successfully changed project path to: C:/Users/mayas/Documents/GitHub/PR_ZAXXON/PR_ZAXXON_MAYAPARDO
-C:/Users/mayas/Documents/GitHub/PR_ZAXXON/PR_ZAXXON_MAYAPARDO
+54617
+Successfully changed project path to: C:/Users/ani/Documents/MayaPardo/Entornos/PR_ZAXXON/PR_ZAXXON_MAYAPARDO
+C:/Users/ani/Documents/MayaPardo/Entornos/PR_ZAXXON/PR_ZAXXON_MAYAPARDO
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/mayas/Documents/GitHub/PR_ZAXXON/PR_ZAXXON_MAYAPARDO/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ani/Documents/MayaPardo/Entornos/PR_ZAXXON/PR_ZAXXON_MAYAPARDO/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon HD 7660D (ID=0x9901)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   
-    VRAM:     736 MB
-    Driver:   15.201.1151.1008
+    VRAM:     5991 MB
+    Driver:   27.21.14.5730
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004910 seconds.
+Registered in 0.001517 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.360 seconds
+- Completed reload, in  1.468 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001989 seconds.
+Registered in 0.000507 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.743 seconds
+- Completed reload, in  0.717 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1183 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.6 MB.
-System memory in use after: 61.7 MB.
+Unloading 1182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.3 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 2.999334 ms (FindLiveObjects: 0.354933 ms CreateObjectMapping: 0.084578 ms MarkObjects: 2.380889 ms  DeleteObjects: 0.171600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6374019befeac6ce670f13ba9960efb') in 0.041208 seconds
-  Import took 0.063574 seconds .
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1625.
+Total: 1.650300 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.364000 ms  DeleteObjects: 0.055400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.015446 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3cf7ba525c436e547aaaf4b969f678b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3cf7ba525c436e547aaaf4b969f678b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1e2ca112263483da6efb87328fa44a') in 0.033935 seconds
+  Import took 0.035710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.852961 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(e492486f8befce441b8b08b2df3a0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(e492486f8befce441b8b08b2df3a0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b75b63e65e32369f8197f02a6200fed') in 0.012914 seconds
+  Import took 0.014925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003703 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(e492486f8befce441b8b08b2df3a0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(e492486f8befce441b8b08b2df3a0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b75b63e65e32369f8197f02a6200fed') in 0.008855 seconds
+  Import took 0.010818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.699085 seconds.
   path: Assets/Assets
   artifactKey: Guid(62c47c5dc5b85d54b9db6f3cce9ba2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(62c47c5dc5b85d54b9db6f3cce9ba2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1f049ad2f603ab6e1e88e8f3a30752') in 0.004862 seconds
-  Import took 0.031305 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001538 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.699 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1164 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 3.935067 ms (FindLiveObjects: 0.339289 ms CreateObjectMapping: 0.395511 ms MarkObjects: 3.157245 ms  DeleteObjects: 0.033244 ms)
+Start importing Assets/Assets using Guid(62c47c5dc5b85d54b9db6f3cce9ba2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea7b02a29808e6b8e8d99c48c29c103') in 0.007833 seconds
+  Import took 0.009611 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 235.266076 seconds.
-  path: Assets/Assets/Scripts/Game/Movement2.cs
-  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Game/Movement2.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8c1e2e4e4c17654a3504d8cc87184f') in 0.154263 seconds
-  Import took 0.157239 seconds .
+  Time since last request: 1.250482 seconds.
+  path: Assets/Assets/Textures
+  artifactKey: Guid(a2470c9f20f096d4b8feb19587f62723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures using Guid(a2470c9f20f096d4b8feb19587f62723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d77fca02b5b5243927af00bffb8c6c') in 0.007202 seconds
+  Import took 0.008992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061511 seconds.
+  path: Assets/Assets/Textures/Base.mat
+  artifactKey: Guid(e197203496659c049bd3d58f3c201555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Base.mat using Guid(e197203496659c049bd3d58f3c201555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd048facb3b1b78498b02b58061253fb') in 0.071971 seconds
+  Import took 0.073706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Assets/Textures/BulletMat.mat
+  artifactKey: Guid(72a47cdcad704c64a878950953300cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/BulletMat.mat using Guid(72a47cdcad704c64a878950953300cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c2a510aea48b3d9f181de8d814042b') in 0.151937 seconds
+  Import took 0.153552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Assets/Textures/ChargedBulletMat.mat
+  artifactKey: Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/ChargedBulletMat.mat using Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd99c6371a6252ea1bc1ecafcc0c9193') in 0.009832 seconds
+  Import took 0.011484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/Textures/Glass.mat
+  artifactKey: Guid(f0a7c3efdcdf1d44484afffbd62ce1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Glass.mat using Guid(f0a7c3efdcdf1d44484afffbd62ce1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8391c7cbf8e0ddbea9bec6642bdfa51') in 0.131253 seconds
+  Import took 0.132954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/Textures/Sign.mat
+  artifactKey: Guid(620d86bd70c7846489b6616371e44713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Sign.mat using Guid(620d86bd70c7846489b6616371e44713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878306f812d643f8fac17e5132370c71') in 0.010086 seconds
+  Import took 0.011708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/Textures/sea texture.png
+  artifactKey: Guid(c13f2ef207177bc47a827da4281dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/sea texture.png using Guid(c13f2ef207177bc47a827da4281dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bb3acc58ccbe0cacf29904cdb1433e') in 0.046392 seconds
+  Import took 0.047964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Assets/Textures/Sea.mat
+  artifactKey: Guid(f92ba88e4812feb42935a0a2be204e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Sea.mat using Guid(f92ba88e4812feb42935a0a2be204e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7d6013ec1c1691f824358a364a1308') in 0.010665 seconds
+  Import took 0.012315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.268443 seconds.
+  path: Assets/Assets/Textures/DesertFloor.mat
+  artifactKey: Guid(4f3a138864ea8ae44820c359e7917718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.mat using Guid(4f3a138864ea8ae44820c359e7917718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8c468a13182fab3e56f0d48e69c226') in 0.010342 seconds
+  Import took 0.012182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.139093 seconds.
+  path: Assets/Assets/Textures/DesertFloor.terrainlayer
+  artifactKey: Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.terrainlayer using Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d0ca7d499ffd21125c67086f83817c') in 0.008664 seconds
+  Import took 0.010747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001490 seconds.
+  path: Assets/Assets/Textures/DesertFloor.terrainlayer
+  artifactKey: Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.terrainlayer using Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d0ca7d499ffd21125c67086f83817c') in 0.003182 seconds
+  Import took 0.004952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.571638 seconds.
+  path: Assets/Assets/Textures/DesertFloor.mat
+  artifactKey: Guid(4f3a138864ea8ae44820c359e7917718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.mat using Guid(4f3a138864ea8ae44820c359e7917718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cadc4541b6f7d8051b1042e879a779e') in 0.011725 seconds
+  Import took 0.013753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.245746 seconds.
+  path: Assets/Free Low Poly Desert Pack
+  artifactKey: Guid(f8fe1ba24292b1249a51b016cc84b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Desert Pack using Guid(f8fe1ba24292b1249a51b016cc84b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7357e9be856105e5f06e8653bec1306b') in 0.005431 seconds
+  Import took 0.007474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.968830 seconds.
+  path: Assets/Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(e30cf622bf9c67e4b9c8290308746723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Bullet.prefab using Guid(e30cf622bf9c67e4b9c8290308746723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26262e0e42a795128398c66fed5381e') in 0.020482 seconds
+  Import took 0.022302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/Prefabs/ChargedBullet.prefab
+  artifactKey: Guid(6cf6e38da85b73f479da440d8e1b1033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/ChargedBullet.prefab using Guid(6cf6e38da85b73f479da440d8e1b1033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f342b24a07c49f4a2640711a2e7c0e94') in 0.009481 seconds
+  Import took 0.011151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/Prefabs/favpng_Çorum-Çekv-corum-education-and-culture-foundation-silhouette-student-city.png
+  artifactKey: Guid(cd4dde6da66f24846b0ccd5e39beee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/favpng_Çorum-Çekv-corum-education-and-culture-foundation-silhouette-student-city.png using Guid(cd4dde6da66f24846b0ccd5e39beee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1041131431cf4cfc607cf3f5ac7d9b29') in 0.033417 seconds
+  Import took 0.035172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/Prefabs/Nave.prefab
+  artifactKey: Guid(9f8a88294f84d5a42bd9e75e46b4828e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Nave.prefab using Guid(9f8a88294f84d5a42bd9e75e46b4828e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808d46b28a604b85e8762778f96b2048') in 0.011945 seconds
+  Import took 0.013698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Prefabs/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e96ab35754cb8702bd05868f4cd8afd') in 0.008894 seconds
+  Import took 0.010718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.734120 seconds.
+  path: Assets/Assets/Prefabs
+  artifactKey: Guid(1e1a5bd9870fb9c41b655cdaf03c3b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs using Guid(1e1a5bd9870fb9c41b655cdaf03c3b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b05677e38fdb13295cc1e4677c1e729') in 0.005713 seconds
+  Import took 0.007743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005220 seconds.
+  path: Assets/Assets/Prefabs
+  artifactKey: Guid(1e1a5bd9870fb9c41b655cdaf03c3b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs using Guid(1e1a5bd9870fb9c41b655cdaf03c3b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b05677e38fdb13295cc1e4677c1e729') in 0.002115 seconds
+  Import took 0.003928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.712693 seconds.
+  path: Assets/Assets/Prefabs/Deco
+  artifactKey: Guid(449001141e7b1ea429bc26f82fbee2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Deco using Guid(449001141e7b1ea429bc26f82fbee2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432f50bfad48571a008a13fb4b2fb87b') in 0.005846 seconds
+  Import took 0.007781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.452060 seconds.
+  path: Assets/Assets/Prefabs/Ship 1
+  artifactKey: Guid(07fc1855cec0ea34ba646a85362efe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship 1 using Guid(07fc1855cec0ea34ba646a85362efe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8977c762c95707ef69bcc0fea1504b39') in 0.005504 seconds
+  Import took 0.007214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.255685 seconds.
+  path: Assets/Assets/Prefabs/Ship
+  artifactKey: Guid(314f53cbb4d7b8c49a498051a1b9b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship using Guid(314f53cbb4d7b8c49a498051a1b9b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7fd3dc691361b39de8b8da3aef011b') in 0.005748 seconds
+  Import took 0.007574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001513 seconds.
+  path: Assets/Assets/Prefabs/Ship
+  artifactKey: Guid(314f53cbb4d7b8c49a498051a1b9b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship using Guid(314f53cbb4d7b8c49a498051a1b9b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7fd3dc691361b39de8b8da3aef011b') in 0.002170 seconds
+  Import took 0.003835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074526 seconds.
+  path: Assets/Assets/Prefabs/Ship/Collider.fbx
+  artifactKey: Guid(a573ded3558253d4493e655d6ad08bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship/Collider.fbx using Guid(a573ded3558253d4493e655d6ad08bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a1f2435f516ceec447211c5c1fb99') in 0.041601 seconds
+  Import took 0.043957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Assets/Prefabs/Ship/Player.prefab
+  artifactKey: Guid(10026e97a64cd6049b8ad9bb505949f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship/Player.prefab using Guid(10026e97a64cd6049b8ad9bb505949f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896b5702e4a69c7b17b0965b1f130017') in 0.022193 seconds
+  Import took 0.024135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Assets/Prefabs/Ship/HoverBike.fbx
+  artifactKey: Guid(3a1475ca3d63a5f4fb4e837115ed72d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship/HoverBike.fbx using Guid(3a1475ca3d63a5f4fb4e837115ed72d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412d06fedb99ebfdaf33b0a776e8e424') in 0.048812 seconds
+  Import took 0.050628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.233999 seconds.
+  path: Assets/Assets/Prefabs/Ship/Bullet
+  artifactKey: Guid(e3d516a40ef008d4e91dda86686228b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship/Bullet using Guid(e3d516a40ef008d4e91dda86686228b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73eae37d66d96e25e5bd1fbcab75ec9') in 0.002140 seconds
+  Import took 0.004065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.988765 seconds.
+  path: Assets/Assets/Textures/DesertFloor.png
+  artifactKey: Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.png using Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2615a0d14ae68d8da84b699b42ac461a') in 0.011555 seconds
+  Import took 0.013527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.927041 seconds.
+  path: Assets/Assets/Prefabs/Test/Bricks.prefab
+  artifactKey: Guid(a63a129ee81e4dd47a6e8e6c709d1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Test/Bricks.prefab using Guid(a63a129ee81e4dd47a6e8e6c709d1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bfd84408c9fa584063927b9c6f1eda') in 0.011454 seconds
+  Import took 0.013511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets/Prefabs/Test/Rotation machine.prefab
+  artifactKey: Guid(eac8035c6f65a734d82816c215714122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Test/Rotation machine.prefab using Guid(eac8035c6f65a734d82816c215714122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f500f4af68d8300b1c375a0768dc395') in 0.009783 seconds
+  Import took 0.011780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.943534 seconds.
+  path: Assets/Assets/Textures/DesertFloor_May.mat
+  artifactKey: Guid(3022d13b13fba294b9e47ed0898f582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor_May.mat using Guid(3022d13b13fba294b9e47ed0898f582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5484319e4cc24d42b387131ac196f547') in 0.010030 seconds
+  Import took 0.011835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.691396 seconds.
+  path: Assets/Assets/Prefabs/Obstacles
+  artifactKey: Guid(2c1ec3f40e234a94f987ccb1810da729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Obstacles using Guid(2c1ec3f40e234a94f987ccb1810da729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117747f877c24e9e3e300c290a4aa167') in 0.005830 seconds
+  Import took 0.007804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005290 seconds.
+  path: Assets/Assets/Prefabs/Obstacles
+  artifactKey: Guid(2c1ec3f40e234a94f987ccb1810da729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Obstacles using Guid(2c1ec3f40e234a94f987ccb1810da729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117747f877c24e9e3e300c290a4aa167') in 0.002566 seconds
+  Import took 0.004499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068489 seconds.
+  path: Assets/Assets/Prefabs/Obstacles/Car1_Obstacle.prefab
+  artifactKey: Guid(5a81b58f13f56a14aad2ceba9a9160c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Obstacles/Car1_Obstacle.prefab using Guid(5a81b58f13f56a14aad2ceba9a9160c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac2c8f9f4cc6a5642cae17a5a8cf862') in 0.010720 seconds
+  Import took 0.012579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Assets/Prefabs/Obstacles/Truck_Obstacle.prefab
+  artifactKey: Guid(092cdff6ad8a3a44eaa5f3c8041aa298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Obstacles/Truck_Obstacle.prefab using Guid(092cdff6ad8a3a44eaa5f3c8041aa298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09faf16796a0141e015dd8e61553462a') in 0.011794 seconds
+  Import took 0.013550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/Prefabs/Obstacles/Car2_Obstacle.prefab
+  artifactKey: Guid(eef35a999cb6a7949a4a966462662b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Obstacles/Car2_Obstacle.prefab using Guid(eef35a999cb6a7949a4a966462662b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d0ec1db6182f0be02caeb96f4e701b') in 0.019042 seconds
+  Import took 0.021027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.044681 seconds.
+  path: Assets/Assets/Prefabs/PowerUps
+  artifactKey: Guid(e236ca9722563d646af9b3b173e4bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps using Guid(e236ca9722563d646af9b3b173e4bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f55dc576e9ac486ed15e9af2c8f053') in 0.006656 seconds
+  Import took 0.009019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/Assets/Prefabs/PowerUps
+  artifactKey: Guid(e236ca9722563d646af9b3b173e4bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps using Guid(e236ca9722563d646af9b3b173e4bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f55dc576e9ac486ed15e9af2c8f053') in 0.002406 seconds
+  Import took 0.004205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.710484 seconds.
+  path: Assets/Assets/Prefabs/Test
+  artifactKey: Guid(dd37a7bbc12e3d94d9150a9e5e384714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Test using Guid(dd37a7bbc12e3d94d9150a9e5e384714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a730302371ae6734557076386995151') in 0.006087 seconds
+  Import took 0.007924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.323018 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.fbx
+  artifactKey: Guid(5c9011f79fde22f458475fb9f5067204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.fbx using Guid(5c9011f79fde22f458475fb9f5067204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee9b86efc8fb01349bf7565f029d5c7') in 0.028029 seconds
+  Import took 0.029865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.fbx
+  artifactKey: Guid(65e522243d940064eb22f75797d88082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.fbx using Guid(65e522243d940064eb22f75797d88082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48acd91ef604cbbfdfa9beb3f3db0dd8') in 0.039424 seconds
+  Import took 0.041101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066bc8966d52798c3f047e9a34c6d4f2') in 0.010814 seconds
+  Import took 0.012555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042c7d9df78b9b318880fa2588f4761e') in 0.012569 seconds
+  Import took 0.014303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.346975 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6792400a32c164b86c43e9621cd7dbd1') in 0.007993 seconds
+  Import took 0.009883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010375 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6792400a32c164b86c43e9621cd7dbd1') in 0.006935 seconds
+  Import took 0.008815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.100813 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Take 001' used by the Animation component 'Heal' must be marked as Legacy.
+
+The AnimationClip 'Take 001' used by the Animation component 'Heal(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'Take 001' used by the Animation component 'Heal(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'f62fc08c7caf8657d8b8df9489cbefef') in 0.007995 seconds
+  Import took 0.009883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006803 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Take 001' used by the Animation component 'Heal' must be marked as Legacy.
+
+The AnimationClip 'Take 001' used by the Animation component 'Heal(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'Take 001' used by the Animation component 'Heal(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'f62fc08c7caf8657d8b8df9489cbefef') in 0.006626 seconds
+  Import took 0.008637 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002884 seconds.
+Registered in 0.000498 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.912 seconds
+- Completed reload, in  0.656 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.5 MB.
+Unloading 1166 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1635.
-Total: 5.857379 ms (FindLiveObjects: 0.431200 ms CreateObjectMapping: 0.228311 ms MarkObjects: 5.149467 ms  DeleteObjects: 0.038133 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1682.
+Total: 2.218600 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.349800 ms  DeleteObjects: 0.647600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.327895 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Take 001' used by the Animation component 'Heal' must be marked as Legacy.
+
+The AnimationClip 'Take 001' used by the Animation component 'Heal(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'Take 001' used by the Animation component 'Heal(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '92c603fb3e9a9fe994ec0e1f193b161f') in 0.050792 seconds
+  Import took 0.052640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.476104 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.fbx
+  artifactKey: Guid(5c9011f79fde22f458475fb9f5067204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.fbx using Guid(5c9011f79fde22f458475fb9f5067204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0678f298be20957e13fba64dbe590f27') in 0.050925 seconds
+  Import took 0.052946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'PowerUp_anim' used by the Animation component 'Heal' must be marked as Legacy.
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Heal(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Heal(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '9fd1f5a9dcf01de8a3b94ed34547a402') in 0.007174 seconds
+  Import took 0.008943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.752520 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177a9e35510320784304d06d35aa13ea') in 0.010748 seconds
+  Import took 0.012611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001995 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177a9e35510320784304d06d35aa13ea') in 0.008379 seconds
+  Import took 0.010331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.339648 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield' must be marked as Legacy.
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '8eebfaf63fc154b9dc4ecc83a7f9a76c') in 0.007537 seconds
+  Import took 0.009799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004410 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield' must be marked as Legacy.
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '8eebfaf63fc154b9dc4ecc83a7f9a76c') in 0.013272 seconds
+  Import took 0.015290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.188757 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield' must be marked as Legacy.
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'fb4c514e2f9f2f728713a3418b8bdfce') in 0.008938 seconds
+  Import took 0.010803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003778 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield' must be marked as Legacy.
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'PowerUp_anim' used by the Animation component 'Shield(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'fb4c514e2f9f2f728713a3418b8bdfce') in 0.010016 seconds
+  Import took 0.011944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.204347 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc0128842cd738b2f88a09028a176bf') in 0.007847 seconds
+  Import took 0.009782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004728 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc0128842cd738b2f88a09028a176bf') in 0.014957 seconds
+  Import took 0.016863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 1.639800 ms (FindLiveObjects: 0.125400 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.174700 ms  DeleteObjects: 0.304700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.270004 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6acdead3c1d494a1a0116fe1eb51bd6') in 0.046022 seconds
+  Import took 0.047807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.444205 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77730dc0221b2cc27c69b7a3dd17e7e6') in 0.007586 seconds
+  Import took 0.009442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006157 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77730dc0221b2cc27c69b7a3dd17e7e6') in 0.006745 seconds
+  Import took 0.008819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.973951 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PowerUp.controller
+  artifactKey: Guid(8743998bd18fa054c84af43f6e19d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PowerUp.controller using Guid(8743998bd18fa054c84af43f6e19d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d9480520cb4f840dfca584e59879e9') in 0.008734 seconds
+  Import took 0.010652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.936891 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'a24e7df49085b349992fd4e63aceaf2d') in 0.008924 seconds
+  Import took 0.010852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006260 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'a24e7df49085b349992fd4e63aceaf2d') in 0.007312 seconds
+  Import took 0.009206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.248538 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af95bf10b17a583c6777bee7914cde0') in 0.007455 seconds
+  Import took 0.009381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.929796 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28059f76d6a1e29bb9080a95291b6a5f') in 0.006727 seconds
+  Import took 0.008599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008151 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28059f76d6a1e29bb9080a95291b6a5f') in 0.006905 seconds
+  Import took 0.008717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.117064 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '07207d711a7ae0e1b65690515aa46e7e') in 0.011978 seconds
+  Import took 0.013842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PowerUp) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '07207d711a7ae0e1b65690515aa46e7e') in 0.008326 seconds
+  Import took 0.010133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.221237 seconds.
+  path: Assets/Assets/Scripts
+  artifactKey: Guid(589a923b39ac157469ece736839c4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts using Guid(589a923b39ac157469ece736839c4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2191c58635135130735156939af0cad') in 0.006034 seconds
+  Import took 0.008203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Assets/Scripts
+  artifactKey: Guid(589a923b39ac157469ece736839c4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts using Guid(589a923b39ac157469ece736839c4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2191c58635135130735156939af0cad') in 0.002123 seconds
+  Import took 0.003842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.715112 seconds.
+  path: Assets/Assets/Scripts/Game
+  artifactKey: Guid(1ceae5d477c788749b4177708c251df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game using Guid(1ceae5d477c788749b4177708c251df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa93350a632a2bbc531ab0501f82cc6a') in 0.006211 seconds
+  Import took 0.008374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Assets/Scripts/Game
+  artifactKey: Guid(1ceae5d477c788749b4177708c251df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game using Guid(1ceae5d477c788749b4177708c251df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa93350a632a2bbc531ab0501f82cc6a') in 0.002490 seconds
+  Import took 0.004240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.745412 seconds.
+  path: Assets/Assets/Scripts/Game/Movement2.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/Movement2.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8c1e2e4e4c17654a3504d8cc87184f') in 0.014282 seconds
+  Import took 0.016177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/Assets/Scripts/Game/Movement2.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/Movement2.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8c1e2e4e4c17654a3504d8cc87184f') in 0.002184 seconds
+  Import took 0.004059 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.694 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 1.629000 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.168700 ms  DeleteObjects: 0.305900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.647211 seconds.
+  path: Assets/Assets/Scripts/Game/Movement.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/Movement.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f090224e304d337dc56698f3f8065b') in 0.006867 seconds
+  Import took 0.008500 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 1.839900 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.305500 ms  DeleteObjects: 0.338500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.608302 seconds.
+  path: Assets/Assets/Scripts/Game/ChManager.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/ChManager.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eadd21bf22c24c1bbb89675e044e851') in 0.007644 seconds
+  Import took 0.009700 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 1.809500 ms (FindLiveObjects: 0.144700 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.254800 ms  DeleteObjects: 0.373500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.717050 seconds.
+  path: Assets/Assets/Scripts/Game/ChManager.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/ChManager.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b21cea1a835fd8db7e760247e1578e9') in 0.004349 seconds
+  Import took 0.006245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.771300 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.233300 ms  DeleteObjects: 0.344200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.380962 seconds.
+  path: Assets/Assets/Scripts/Game/ChManager.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/ChManager.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f5ad683ff18c558f05ddb3f68b3e09') in 0.004369 seconds
+  Import took 0.006404 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 1.718500 ms (FindLiveObjects: 0.142600 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.196200 ms  DeleteObjects: 0.341800 ms)
 
