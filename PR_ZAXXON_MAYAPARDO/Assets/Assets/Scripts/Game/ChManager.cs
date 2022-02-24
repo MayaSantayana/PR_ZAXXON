@@ -37,6 +37,8 @@ public class ChManager : MonoBehaviour
     [SerializeField] ParticleSystem engineFire_L;
     [SerializeField] ParticleSystem engineFire_R;
 
+
+
     #region START-UPDATE
 
     void Start()
@@ -122,7 +124,6 @@ public class ChManager : MonoBehaviour
     //COLLISIONS
     private void OnTriggerEnter(Collider other)
     {
-        print(other.gameObject.name);
         if (other.gameObject.layer == 6)
         {
             initGameScript.Hit();

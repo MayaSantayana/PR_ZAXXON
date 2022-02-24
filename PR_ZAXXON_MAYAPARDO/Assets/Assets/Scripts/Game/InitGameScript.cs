@@ -27,7 +27,7 @@ public class InitGameScript : MonoBehaviour
 
     //Speed
     public float speedIncrease = 10f;
-    public float spaceshipSpeed = 50f;
+    public float spaceshipSpeed = 30f;
 
     //Score
     static float score;
@@ -40,11 +40,21 @@ public class InitGameScript : MonoBehaviour
     [SerializeField] Text levelText;
     public Image healthbar;
     public int spritesPos = 0;
-    
+
+    //Audio
+    [Range(0f, 1f)]
+    static public float volume;
+
+    [SerializeField] GameObject audioObj;
+    AudioManager audioManager;
 
     //GameOverHolds
     int restartTimer = 0;
     [SerializeField] int holdTime = 4;
+
+    //Particles
+    public ParticleSystem explosion;
+    public ParticleSystem explosion2;
 
     IEnumerator SpeedIncrease()
     {
@@ -105,7 +115,8 @@ public class InitGameScript : MonoBehaviour
     public void OnDeath()
     {
         ship.SetActive(false);
-        StopCoroutine("SpeedIncrease");      
+        StopCoroutine("SpeedIncrease");
+        StartCoroutine("Slowdown");
     }
 
 
@@ -114,18 +125,20 @@ public class InitGameScript : MonoBehaviour
     {
         if ((health >= 1) && (inv == false))
         {
+            FindObjectOfType<AudioManager>().Play("Hit");
             health -= 1;
             spritesPos++;
             healthbar.sprite = healthbarArray[spritesPos];
             multiplicator = 1;
             inv = true;
-            //shipColl.isTrigger = true;
             EnableRenderer(shipRend, false);
-            //StartCoroutine("Blinking");
             Invoke("InvRevoke", 2f);
         }
         else
         {
+            explosion.Play();
+            explosion2.Play();
+            FindObjectOfType<AudioManager>().Play("Death");
             alive = false;
         }
     }
@@ -151,10 +164,6 @@ public class InitGameScript : MonoBehaviour
     void InvRevoke()
     {
         inv = false;
-        //shipColl.isTrigger = false;
-
-        EnableRenderer(shipRend, true);
-        //StopCoroutine("Blinking");
     }
 
 
@@ -192,22 +201,17 @@ public class InitGameScript : MonoBehaviour
         }
     }
 
-    IEnumerator Blinking()
+    IEnumerator Slowdown()
     {
-        for( ; ; )
+        float elapsed = 0.0f;
+        while(elapsed < 1f)
         {
-            int x = 1;
-            if (x%2 == 1)
-            {
-                EnableRenderer(shipRend, false);
-            }
-            else
-            {
-                EnableRenderer(shipRend, true);
-            }
-            x++;
-
-            yield return new WaitForSeconds(0.5f);
+            spaceshipSpeed = Mathf.Lerp(spaceshipSpeed, 0f, elapsed);
+            elapsed += Time.deltaTime;
+            yield return null;
         }
+        spaceshipSpeed = 0f;
     }
+
+    
 }

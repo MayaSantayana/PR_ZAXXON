@@ -15,6 +15,10 @@ public class ObstacleGenerator : MonoBehaviour
     //Deco
     [SerializeField] GameObject[] deco;
 
+    //PickUps
+    [SerializeField] GameObject[] pickUp;
+
+
     //Instantiation
     [SerializeField] float speed;
     float intervalo = 20f;
@@ -29,6 +33,7 @@ public class ObstacleGenerator : MonoBehaviour
         StartingMapGen();
         StartCoroutine("ObstacleGen");
         StartCoroutine("DecoGen");
+        StartCoroutine("PickUpGen");
     }
 
     void Update()
@@ -38,7 +43,8 @@ public class ObstacleGenerator : MonoBehaviour
         if (initGameScript.alive == false)
         {
             StopCoroutine("ObstacleGen");
-            StartCoroutine("DecoGen");
+            StopCoroutine("DecoGen");
+            StopCoroutine("PickUpGen");
         }
     }
 
@@ -111,4 +117,29 @@ public class ObstacleGenerator : MonoBehaviour
             yield return new WaitForSeconds(waiting);
         }
     }
+
+    IEnumerator PickUpGen()
+    {
+        while (true)
+        {
+
+            int obj;
+            int r = Random.Range(0, 100);
+
+            float newPosZ = transform.position.z + Random.Range(-2f, 2f);
+            float newPosX = transform.position.x + Random.Range(-12f, 12f);
+
+            if (r == 99)
+                obj = 1;
+            else
+                obj = 0;
+
+            /*if (pickUp[obj] == null)
+                StopCoroutine(PickUpGen());*/
+
+            Instantiate(pickUp[obj], new Vector3(newPosX, transform.position.y, newPosZ), Quaternion.identity);
+            yield return new WaitForSeconds(waiting);
+        }
+    }
+
 }

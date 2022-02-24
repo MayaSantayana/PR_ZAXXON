@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class UIScript : MonoBehaviour
 {
@@ -24,6 +23,9 @@ public class UIScript : MonoBehaviour
     public Button optionsClosedButton;
     public GameObject highscoresClosedButton;
     public Button restartBTN;
+
+    //Options
+    public Slider volumeSlider;
 
     //Scenes
     int sceneNum;
@@ -193,7 +195,10 @@ public class UIScript : MonoBehaviour
 
     }
 
-
+    void Volume()
+    {
+        AudioListener.volume = volumeSlider.value;
+    }
 
 
 
