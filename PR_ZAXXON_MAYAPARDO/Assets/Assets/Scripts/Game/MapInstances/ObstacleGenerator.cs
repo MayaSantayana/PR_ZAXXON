@@ -17,28 +17,28 @@ public class ObstacleGenerator : MonoBehaviour
 
     //Instantiation
     [SerializeField] float speed;
-    Vector3 initPos;
-    float intervalo = 60f;
+    float intervalo = 20f;
+    float waiting;
 
     void Start()
     {
         initObject = GameObject.Find("GlobalVar");
         initGameScript = initObject.GetComponent<InitGameScript>();
         speed = initGameScript.spaceshipSpeed;
-        initPos = transform.position;
-        print(initPos);
+
         StartingMapGen();
-        StartCoroutine("Generator");
-        StartCoroutine("DecoGenerator");
+        StartCoroutine("ObstacleGen");
+        StartCoroutine("DecoGen");
     }
 
     void Update()
     {
         speed = initGameScript.spaceshipSpeed;
-        float waiting = intervalo / speed;
+        waiting = intervalo / speed;
         if (initGameScript.alive == false)
         {
             StopCoroutine("ObstacleGen");
+            StartCoroutine("DecoGen");
         }
     }
 
@@ -51,44 +51,42 @@ public class ObstacleGenerator : MonoBehaviour
 
             int rObj = Random.Range(0, deco.Length);
             float rPosZ = Random.Range(-3f, 3f);
-            float newPosZ = transform.position.z - n * 2 + rPosZ;
+            float newPosZ = transform.position.z - n * 10 + rPosZ;
             float newPosX = transform.position.x + Random.Range(-20f, 20f);
             float rRotation = Random.Range(-180f, 180f);
-            if (r > 2)
+            if (r >= 2)
                 Instantiate(deco[rObj], new Vector3(newPosX, transform.position.y, newPosZ), transform.rotation * Quaternion.Euler(0f, rRotation, 0f));
         }
     }
 
     IEnumerator ObstacleGen()
     {
-        float waiting = intervalo / speed;
-        float rInterval = Random.Range(0f, 0.5f);
         while (true)
         {
             float randObst = Random.Range(0f, 10f);
-            
+            float rInterval = Random.Range(0f, 0.5f);
 
             //Esto sería mejor con un switch
             if (randObst < 1)
             {
                 int r = Random.Range(0, wall.Length);
-                float randispX = initPos.x + Random.Range(-7f, 7f);
-                float randispZ = initPos.z + Random.Range(-2f, 2f);
+                float randispX = transform.position.x + Random.Range(-7f, 7f);
+                float randispZ = transform.position.z + Random.Range(-2f, 2f);
                 Instantiate(wall[r], new Vector3(randispX, transform.position.y, randispZ), Quaternion.identity);
             }
-            else if (randObst >= 1 && randObst < 4)
+            else if (randObst >= 1 && randObst < 5)
             {
                 int r = Random.Range(0, column.Length);
                 float randispX = transform.position.x + Random.Range(-7f, 7f);
-                float randispZ = transform.position.y + Random.Range(-2f, 2f);
+                float randispZ = transform.position.z + Random.Range(-2f, 2f);
                 float rRotation = Random.Range(-180f, 180f);
                 Instantiate(column[r], new Vector3(randispX, transform.position.y, randispZ), transform.rotation * Quaternion.Euler(0f, rRotation, 0f));
             }
-            else if (randObst >=4 && randObst <= 8)
+            else if (randObst >=5 && randObst <= 9)
             {
                 int r = Random.Range(0, small.Length);
                 float randispX = transform.position.x + Random.Range(-7f, 7f);
-                float randispZ = transform.position.y + Random.Range(-2f, 2f);
+                float randispZ = transform.position.z + Random.Range(-2f, 2f);
                 float rRotation = Random.Range(-180f, 180f);
                 Instantiate(small[r], new Vector3(randispX, transform.position.y, randispZ), transform.rotation * Quaternion.Euler(0f, rRotation, 0f));
             }
@@ -97,11 +95,20 @@ public class ObstacleGenerator : MonoBehaviour
         }
     }
 
-    IEnumerator DecoGenerator()
+    IEnumerator DecoGen()
     {
         while (true)
         {
+            float rInterval = Random.Range(0f, 0.5f);
+            int rObj = Random.Range(0, deco.Length);
+            float newPosZ = transform.position.z + Random.Range(-3f, 3f);
+            float newPosX = transform.position.x + Random.Range(-20f, 20f);
+            float rRotation = Random.Range(-180f, 180f);
 
+            int r = Random.Range(0, 4);
+            if (r >= 2)
+                Instantiate(deco[rObj], new Vector3(newPosX, transform.position.y, newPosZ), transform.rotation * Quaternion.Euler(0f, rRotation, 0f));
+            yield return new WaitForSeconds(waiting);
         }
     }
 }

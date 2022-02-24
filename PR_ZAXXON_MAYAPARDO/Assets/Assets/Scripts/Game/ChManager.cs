@@ -23,8 +23,8 @@ public class ChManager : MonoBehaviour
     float moveDeacY;
 
     //Map Limits
-    float limiteR = 7f;
-    float limiteL = -7f;
+    float limiteR = 12f;
+    float limiteL = -12f;
     bool inLimitH = true;
 
     //Hover
