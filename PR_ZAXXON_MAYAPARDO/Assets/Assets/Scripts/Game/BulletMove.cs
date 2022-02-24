@@ -33,8 +33,7 @@ public class BulletMove : MonoBehaviour
         
         if (other.gameObject.layer == 8)
         {
-            initGameScript.extraScore += 10;
-            print(initGameScript.extraScore);
+            initGameScript.PickUp();
             Destroy(other);
             Destroy(Bullet);
             

@@ -16,7 +16,7 @@ public class ChManager : MonoBehaviour
 
     //Player
     int health;
-    [SerializeField]float moveSpeed;
+    float moveSpeed;
     [SerializeField] float moveMult;
     float moveDeacTime = 0.8f;
     float moveDeacX;
@@ -28,7 +28,7 @@ public class ChManager : MonoBehaviour
     bool inLimitH = true;
 
     //Hover
-    public float multiplier = 10;
+    float multiplier = 3;
 
     public Transform[] anchors = new Transform[4];
     RaycastHit[] hits = new RaycastHit[4];
@@ -50,7 +50,7 @@ public class ChManager : MonoBehaviour
     private void Update()
     {
         initGameScript = initObject.GetComponent<InitGameScript>();
-        
+        moveSpeed = initGameScript.spaceshipSpeed;
     }
     void FixedUpdate()
     {
@@ -120,24 +120,31 @@ public class ChManager : MonoBehaviour
 
     #region COLLISIONS
     //COLLISIONS
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.layer == 6)
+        print(other.gameObject.name);
+        if (other.gameObject.layer == 6)
         {
             initGameScript.Hit();
         }
-        else if (collision.gameObject.layer == 7)
+        else if (other.gameObject.layer == 7)
         {
             if (initGameScript.health < initGameScript.maxHealth)
             {
                 initGameScript.PowerUp();
-                Object.Destroy(collision.gameObject);
+                Object.Destroy(other.gameObject);
             }
             else
             {
                 Debug.Log("Full health");
             }
         }
+        else if (other.gameObject.layer == 8)
+        {
+            initGameScript.PickUp();
+            Destroy(other.gameObject);
+        }
     }
+
     #endregion
 }

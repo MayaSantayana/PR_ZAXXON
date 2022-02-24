@@ -280,3 +280,2273 @@ System memory in use after: 75.1 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1676.
 Total: 2.942623 ms (FindLiveObjects: 0.476667 ms CreateObjectMapping: 0.136889 ms MarkObjects: 2.293378 ms  DeleteObjects: 0.026889 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 162.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.029 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 119.9 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 2875.
+Total: 8.049068 ms (FindLiveObjects: 0.801778 ms CreateObjectMapping: 0.766578 ms MarkObjects: 3.078045 ms  DeleteObjects: 3.393378 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 940.941433 seconds.
+  path: Assets/Assets/Textures
+  artifactKey: Guid(a2470c9f20f096d4b8feb19587f62723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures using Guid(a2470c9f20f096d4b8feb19587f62723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d77fca02b5b5243927af00bffb8c6c') in 0.020387 seconds
+  Import took 0.027062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044581 seconds.
+  path: Assets/Assets/Textures/Base.mat
+  artifactKey: Guid(e197203496659c049bd3d58f3c201555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Base.mat using Guid(e197203496659c049bd3d58f3c201555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd048facb3b1b78498b02b58061253fb') in 0.752863 seconds
+  Import took 0.760758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Assets/Textures/BulletMat.mat
+  artifactKey: Guid(72a47cdcad704c64a878950953300cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/BulletMat.mat using Guid(72a47cdcad704c64a878950953300cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c2a510aea48b3d9f181de8d814042b') in 1.176620 seconds
+  Import took 1.185070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Assets/Textures/ChargedBulletMat.mat
+  artifactKey: Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/ChargedBulletMat.mat using Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd99c6371a6252ea1bc1ecafcc0c9193') in 0.048148 seconds
+  Import took 0.060617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Assets/Textures/Glass.mat
+  artifactKey: Guid(f0a7c3efdcdf1d44484afffbd62ce1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Glass.mat using Guid(f0a7c3efdcdf1d44484afffbd62ce1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8391c7cbf8e0ddbea9bec6642bdfa51') in 0.090587 seconds
+  Import took 0.096926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Assets/Textures/ChargedBulletMat.mat
+  artifactKey: Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/ChargedBulletMat.mat using Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd99c6371a6252ea1bc1ecafcc0c9193') in 0.026503 seconds
+  Import took 0.035374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Assets/Textures/sea texture.png
+  artifactKey: Guid(c13f2ef207177bc47a827da4281dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/sea texture.png using Guid(c13f2ef207177bc47a827da4281dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bb3acc58ccbe0cacf29904cdb1433e') in 0.836424 seconds
+  Import took 0.842372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Assets/Textures/DesertFloor_Mat.mat
+  artifactKey: Guid(3022d13b13fba294b9e47ed0898f582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor_Mat.mat using Guid(3022d13b13fba294b9e47ed0898f582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbbfe46f65282ca45516e2471c26e5d') in 0.095985 seconds
+  Import took 0.101813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Assets/Textures/DesertFloor_TL.terrainlayer
+  artifactKey: Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor_TL.terrainlayer using Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95323b41ce03b4b0802e54f0948284fe') in 0.211684 seconds
+  Import took 0.221300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Assets/Textures/DesertFloor.png
+  artifactKey: Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.png using Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb37ea7a841975e60b59fcd23ce3278') in 0.068384 seconds
+  Import took 0.080748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.488305 seconds.
+  path: Assets/Assets/Textures/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(dfd8ea624c8f52a40bf27e818679cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/UniversalRenderPipelineAsset.asset using Guid(dfd8ea624c8f52a40bf27e818679cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a97de51c0c8893e575068ffedb9c765') in 1.156160 seconds
+  Import took 1.164105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Assets/Textures/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(ac57b1a2ccf71a44e9d2a0e27e7f5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/UniversalRenderPipelineAsset_Renderer.asset using Guid(ac57b1a2ccf71a44e9d2a0e27e7f5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed57ad9a4dff9382e294ad75e29da84') in 0.144911 seconds
+  Import took 0.167714 seconds .
+
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> dfd8ea624c8f52a40bf27e818679cf88
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 79.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2980.
+Total: 8.460223 ms (FindLiveObjects: 0.794933 ms CreateObjectMapping: 0.179911 ms MarkObjects: 4.085156 ms  DeleteObjects: 3.393378 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.120414 seconds.
+  path: Assets/Assets/Textures/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(dfd8ea624c8f52a40bf27e818679cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/UniversalRenderPipelineAsset.asset using Guid(dfd8ea624c8f52a40bf27e818679cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cd7167e5c2964a7a3625759290b7c9') in 0.049051 seconds
+  Import took 0.107007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Assets/Textures/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(ac57b1a2ccf71a44e9d2a0e27e7f5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/UniversalRenderPipelineAsset_Renderer.asset using Guid(ac57b1a2ccf71a44e9d2a0e27e7f5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7349c1705afc053edf0e24639e36ffb') in 0.042290 seconds
+  Import took 0.097734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.224879 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs
+  artifactKey: Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs using Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4937f1ea8183264ee7219d47ad941f5') in 0.309249 seconds
+  Import took 0.357564 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.544 seconds
+Platform modules already initialized, skipping
+Switching render pipeline 00000000000000000000000000000000 -> dfd8ea624c8f52a40bf27e818679cf88
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.4 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 8.668001 ms (FindLiveObjects: 0.599378 ms CreateObjectMapping: 0.183333 ms MarkObjects: 3.718000 ms  DeleteObjects: 4.159467 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004230 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.103 seconds
+Platform modules already initialized, skipping
+Switching render pipeline 00000000000000000000000000000000 -> dfd8ea624c8f52a40bf27e818679cf88
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.3 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2990.
+Total: 7.400312 ms (FindLiveObjects: 0.605245 ms CreateObjectMapping: 0.657556 ms MarkObjects: 3.319067 ms  DeleteObjects: 2.811111 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 446.727997 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs
+  artifactKey: Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs using Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee2af67448879f970bf2ad5ad41827f') in 0.015963 seconds
+  Import took 0.022600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.055674 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs
+  artifactKey: Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs using Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a677ec0f956008fafff073e0ce4be063') in 0.016747 seconds
+  Import took 0.029549 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.312 seconds
+Platform modules already initialized, skipping
+Switching render pipeline 00000000000000000000000000000000 -> dfd8ea624c8f52a40bf27e818679cf88
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.3 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2993.
+Total: 9.821779 ms (FindLiveObjects: 0.904933 ms CreateObjectMapping: 0.649733 ms MarkObjects: 4.982267 ms  DeleteObjects: 3.274089 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.796749 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs
+  artifactKey: Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs using Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ee87a0bb82ef45af2c821b1310c117') in 0.014454 seconds
+  Import took 0.021010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Platform modules already initialized, skipping
+Switching render pipeline 00000000000000000000000000000000 -> dfd8ea624c8f52a40bf27e818679cf88
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.3 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2996.
+Total: 10.820090 ms (FindLiveObjects: 1.097556 ms CreateObjectMapping: 0.497689 ms MarkObjects: 5.137245 ms  DeleteObjects: 4.079289 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.622564 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs
+  artifactKey: Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs using Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252739041714be574ca5c3f997fb42df') in 0.014491 seconds
+  Import took 0.022141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.952925 seconds.
+  path: Assets/Assets/Textures/DesertFloor_TL.terrainlayer
+  artifactKey: Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor_TL.terrainlayer using Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f47af372b75fec277098693542aee1b') in 0.104437 seconds
+  Import took 0.111164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015814 seconds.
+  path: Assets/Assets/Textures/DesertFloor_TL.terrainlayer
+  artifactKey: Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor_TL.terrainlayer using Guid(30784cb5aa8414845a524c913ca3156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f47af372b75fec277098693542aee1b') in 0.019536 seconds
+  Import took 0.025881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.926642 seconds.
+  path: Assets/Assets/Textures/DesertFloor.png
+  artifactKey: Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.png using Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa33016879345f0b751e92410bf24ca') in 0.023465 seconds
+  Import took 0.029424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065643 seconds.
+  path: Assets/Assets/Textures/DesertFloor.png
+  artifactKey: Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.png using Guid(096eab4a50b58724895d11a9e6470860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa33016879345f0b751e92410bf24ca') in 0.014296 seconds
+  Import took 0.020410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.651189 seconds.
+  path: Assets/Assets/Textures/Base.mat
+  artifactKey: Guid(e197203496659c049bd3d58f3c201555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Base.mat using Guid(e197203496659c049bd3d58f3c201555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5c9aeeaca78e2cb58af47e2b82e249') in 2.912871 seconds
+  Import took 2.919904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/Assets/Textures/BulletMat.mat
+  artifactKey: Guid(72a47cdcad704c64a878950953300cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/BulletMat.mat using Guid(72a47cdcad704c64a878950953300cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f8b6587f1f6e0fd94ef7b1d29a7376') in 0.188927 seconds
+  Import took 0.195188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Assets/Textures/ChargedBulletMat.mat
+  artifactKey: Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/ChargedBulletMat.mat using Guid(081913db027cce149b901cdd02b64f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b803c49b467ea93f62c04713fa56198') in 0.016478 seconds
+  Import took 0.025375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Assets/Textures/Glass.mat
+  artifactKey: Guid(f0a7c3efdcdf1d44484afffbd62ce1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/Glass.mat using Guid(f0a7c3efdcdf1d44484afffbd62ce1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba96ab2a25ad63e3436dff478af417f4') in 0.087710 seconds
+  Import took 0.093214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Assets/Textures/DesertFloor_Mat.mat
+  artifactKey: Guid(3022d13b13fba294b9e47ed0898f582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor_Mat.mat using Guid(3022d13b13fba294b9e47ed0898f582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14e9135066c8be5197f2cb2e5444f55') in 0.030027 seconds
+  Import took 0.035454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Assets/Textures/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(ac57b1a2ccf71a44e9d2a0e27e7f5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/UniversalRenderPipelineAsset_Renderer.asset using Guid(ac57b1a2ccf71a44e9d2a0e27e7f5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44333b2d16454895775a39c85f933ae') in 0.006455 seconds
+  Import took 0.013303 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.192194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.563 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3038.
+Total: 7.935645 ms (FindLiveObjects: 0.594000 ms CreateObjectMapping: 0.175022 ms MarkObjects: 3.550800 ms  DeleteObjects: 3.607512 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 732.219007 seconds.
+  path: Assets/Assets/Textures/DesertFloor.psd
+  artifactKey: Guid(8d17501d5da317b4da6577cf16792e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Textures/DesertFloor.psd using Guid(8d17501d5da317b4da6577cf16792e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515e0495dbdbcf9266609ec6cace31e4') in 0.307925 seconds
+  Import took 0.317671 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.362 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3041.
+Total: 10.333646 ms (FindLiveObjects: 0.870222 ms CreateObjectMapping: 0.667333 ms MarkObjects: 5.583112 ms  DeleteObjects: 3.205156 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3044.
+Total: 12.674935 ms (FindLiveObjects: 0.809111 ms CreateObjectMapping: 1.418756 ms MarkObjects: 5.322045 ms  DeleteObjects: 5.114267 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.067 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3047.
+Total: 8.236801 ms (FindLiveObjects: 0.566622 ms CreateObjectMapping: 0.259111 ms MarkObjects: 3.946801 ms  DeleteObjects: 3.455467 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3050.
+Total: 10.826935 ms (FindLiveObjects: 0.642889 ms CreateObjectMapping: 0.243467 ms MarkObjects: 5.238445 ms  DeleteObjects: 4.692845 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.788 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3053.
+Total: 9.183290 ms (FindLiveObjects: 0.763645 ms CreateObjectMapping: 0.280622 ms MarkObjects: 4.645423 ms  DeleteObjects: 3.486267 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 628.432463 seconds.
+  path: Assets/Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat
+  artifactKey: Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat using Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0d1f82b277661b112b7df4fd359ba6') in 0.487430 seconds
+  Import took 0.516399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.148046 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs
+  artifactKey: Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapTextMove.cs using Guid(2fb7425e2a76c394ba9de27d1d28e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b9f64d744d3cdfdc3ecd190312c9a1') in 0.005880 seconds
+  Import took 0.034265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.292298 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapMove.cs
+  artifactKey: Guid(724012cea90c5944aa67366ff4ed3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapMove.cs using Guid(724012cea90c5944aa67366ff4ed3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb33c645a7d6c8876657df34547d7b29') in 0.013885 seconds
+  Import took 0.037883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.097855 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Bone_02.prefab
+  artifactKey: Guid(5c3f992a88d4a1c418f016158567854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Bone_02.prefab using Guid(5c3f992a88d4a1c418f016158567854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eb0da5baf0eec8abef3f4adced8e72') in 0.249986 seconds
+  Import took 0.255900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab
+  artifactKey: Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab using Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Fragment program with _ADDITIONAL_LIGHTS _EMISSION
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT _SCREEN_SPACE_OCCLUSION LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _METALLICSPECGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _OCCLUSIONMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _SPECULARHIGHLIGHTS_OFF _ENVIRONMENTREFLECTIONS_OFF _SPECULAR_SETUP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '2967a10bc20ba7a137b2375c777bf7d0') in 0.189473 seconds
+  Import took 0.209945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab
+  artifactKey: Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab using Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c115fb6dc033601b5b4ff0dc9a634e4') in 0.067861 seconds
+  Import took 0.073592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab
+  artifactKey: Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab using Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5712ec11f1578ee58fa89ebd15242666') in 0.070585 seconds
+  Import took 0.084531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab
+  artifactKey: Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab using Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247cab529fae7839642e714c59d17913') in 0.089012 seconds
+  Import took 0.107471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab
+  artifactKey: Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab using Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a79cfd59cc0e94f4e4dd3e1fe9928b9') in 0.057068 seconds
+  Import took 0.069564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab
+  artifactKey: Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab using Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593228bdf7d3f78bff38b7329cd1d244') in 0.059378 seconds
+  Import took 0.071933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Rock_01.prefab
+  artifactKey: Guid(8e245cc20ba42c64d88541d87ad382c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Rock_01.prefab using Guid(8e245cc20ba42c64d88541d87ad382c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4491d5ac078c15a619186eee6c0d4440') in 0.058037 seconds
+  Import took 0.086542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab
+  artifactKey: Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab using Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de778b021dc09a44f18ef8ac2c8c4f76') in 0.061762 seconds
+  Import took 0.075508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Cactus_01.prefab
+  artifactKey: Guid(c15f2197123d20c499e79071500903f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Cactus_01.prefab using Guid(c15f2197123d20c499e79071500903f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46a255af185e0933dde8f63be5c760b') in 0.034032 seconds
+  Import took 0.057064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab
+  artifactKey: Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab using Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbb137a8030f22f21f6e308aa3c7b00') in 0.048121 seconds
+  Import took 0.063306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Plant_02.prefab
+  artifactKey: Guid(abd390c3feaccf64fb6e33eb8d0fd169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Plant_02.prefab using Guid(abd390c3feaccf64fb6e33eb8d0fd169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2d919061c2aea487da1d059ccad408') in 0.048744 seconds
+  Import took 0.055665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.300890 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Column_10_Columns.prefab
+  artifactKey: Guid(b340bb9fae2f9ea43acf74c80ade31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Column_10_Columns.prefab using Guid(b340bb9fae2f9ea43acf74c80ade31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c78c0cd1b736ac96c0eecf9faa69f36') in 0.055214 seconds
+  Import took 0.072371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_07.prefab
+  artifactKey: Guid(cdaa54958390f314aac599324ba7b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_07.prefab using Guid(cdaa54958390f314aac599324ba7b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5071e9c8d32466887b8c060cc9934f70') in 0.047821 seconds
+  Import took 0.065434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/textureEditorIsolateSelectSet_MapAssets_Columns_Column_02.prefab
+  artifactKey: Guid(a44bc49e4d3650c4390dcd86c510e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/textureEditorIsolateSelectSet_MapAssets_Columns_Column_02.prefab using Guid(a44bc49e4d3650c4390dcd86c510e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f24f4d711d9a4c1953f80ddc692405') in 0.048629 seconds
+  Import took 0.062414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/textureEditorIsolateSelectSet_MapAssets_Columns_Column_03.prefab
+  artifactKey: Guid(8d34982b2558fc74680e43b339b6ab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/textureEditorIsolateSelectSet_MapAssets_Columns_Column_03.prefab using Guid(8d34982b2558fc74680e43b339b6ab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c151d58e04d240fd8d3b4bdbba341fb') in 0.026398 seconds
+  Import took 0.032408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_08.prefab
+  artifactKey: Guid(bf0dec425bab314499172fb01082df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_08.prefab using Guid(bf0dec425bab314499172fb01082df1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b104a8db975cb764bccd0d45b2062a') in 0.034880 seconds
+  Import took 0.061294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_01.prefab
+  artifactKey: Guid(8484110ceb62aee4d9e1b621b926e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_01.prefab using Guid(8484110ceb62aee4d9e1b621b926e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa77f239932f92ae741fd2f27ac49a2') in 0.033978 seconds
+  Import took 0.059740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_04.prefab
+  artifactKey: Guid(c819c2773c438b44f9300c1e77747158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_04.prefab using Guid(c819c2773c438b44f9300c1e77747158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeddcda20ec232a75909b82a1196880') in 0.036288 seconds
+  Import took 0.064360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_06.prefab
+  artifactKey: Guid(a95eb4fca1203fc41a9b6697427e0abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_06.prefab using Guid(a95eb4fca1203fc41a9b6697427e0abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0ce498f1990a6a325a62ec436ef9f6') in 0.023733 seconds
+  Import took 0.033716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_05.prefab
+  artifactKey: Guid(9d55ee431b7af98459b43463b27e8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/MapAssets_Columns_Column_05.prefab using Guid(9d55ee431b7af98459b43463b27e8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3e5a8b88ce3497e26bea1f937262fd') in 0.045966 seconds
+  Import took 0.052154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/textureEditorIsolateSelectSet_MapAssets_Columns_Column_09.prefab
+  artifactKey: Guid(1694a4a3441c61c4bb56791edeb329e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Obstacles/Columns/textureEditorIsolateSelectSet_MapAssets_Columns_Column_09.prefab using Guid(1694a4a3441c61c4bb56791edeb329e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c0985bd65d6a5991cffbdcd652b3b6') in 0.025611 seconds
+  Import took 0.032194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.452486 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Colors.png
+  artifactKey: Guid(d304cb8c02935cc4e95da09e55425841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Colors.png using Guid(d304cb8c02935cc4e95da09e55425841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c61cee2dec1f4bf1f67d4b8d74cd634') in 0.051914 seconds
+  Import took 0.075903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Desert Sand.png
+  artifactKey: Guid(c6ed0c6463040474c886353259dafc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Desert Sand.png using Guid(c6ed0c6463040474c886353259dafc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a4688216904fd6cf87d109416ef90c') in 0.042548 seconds
+  Import took 0.048149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.857942 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Materials
+  artifactKey: Guid(ddc98631f55a20e45986d0c867f46cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Materials using Guid(ddc98631f55a20e45986d0c867f46cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98cf6b9e916fdc5ca5fd5087b52d344') in 0.030236 seconds
+  Import took 0.046548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034149 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Materials/Colors.mat
+  artifactKey: Guid(533bdfad60237a341982c1086ed01ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Materials/Colors.mat using Guid(533bdfad60237a341982c1086ed01ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a1776e9ece1c8bdbecf0dae4806b32') in 0.067709 seconds
+  Import took 0.087844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.833373 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Bone_02.prefab
+  artifactKey: Guid(5c3f992a88d4a1c418f016158567854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Bone_02.prefab using Guid(5c3f992a88d4a1c418f016158567854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b940e9b904a7b38983a9e9fc92535d41') in 0.031147 seconds
+  Import took 0.048832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.454198 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Base Color.mat
+  artifactKey: Guid(eeaf4e9c4a165034a93993b104151cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Base Color.mat using Guid(eeaf4e9c4a165034a93993b104151cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 217
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 102
+
+Compiling Fragment program with _ADDITIONAL_LIGHTS _SPECULAR_COLOR _GLOSSINESS_FROM_BASE_ALPHA _EMISSION
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _SCREEN_SPACE_OCCLUSION DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _SPECGLOSSMAP _NORMALMAP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 217
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: 'a90bc14c2272b6b79763af266b94c9e0') in 0.095937 seconds
+  Import took 0.126384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Vertex Color.mat
+  artifactKey: Guid(77f34d55cab75c741af8e49d369939ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Vertex Color.mat using Guid(77f34d55cab75c741af8e49d369939ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d922deb97973da81d2bc14dcfd383e4') in 0.033370 seconds
+  Import took 0.043694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Base Desert Sand.mat
+  artifactKey: Guid(71802d3a8b91efc4b8833222b5c3c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Base Desert Sand.mat using Guid(71802d3a8b91efc4b8833222b5c3c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 217
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 102
+
+Compiling Fragment program with _ADDITIONAL_LIGHTS _SPECULAR_COLOR _GLOSSINESS_FROM_BASE_ALPHA _EMISSION
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK _SCREEN_SPACE_OCCLUSION DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _SPECGLOSSMAP _NORMALMAP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 217
+
+Compiling Fragment program with _GLOSSINESS_FROM_BASE_ALPHA
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON _ALPHATEST_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '03bc86f7e11332d3f02bf12598957a96') in 0.058211 seconds
+  Import took 0.078817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Vertex Color Unlit.mat
+  artifactKey: Guid(e6e6ba439ef1bb048a11147b251d973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Vertex Color Unlit.mat using Guid(e6e6ba439ef1bb048a11147b251d973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5636f832eceeafb68d4320938c1e3d3') in 0.062724 seconds
+  Import took 0.081407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.897130 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials
+  artifactKey: Guid(f925c2df05f6efd478e94796245b978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials using Guid(f925c2df05f6efd478e94796245b978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09e93d367ce1671559ff344de75192a') in 0.009095 seconds
+  Import took 0.024416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.490082 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture
+  artifactKey: Guid(e63f5747a3596754383e11d5569f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture using Guid(e63f5747a3596754383e11d5569f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55d16c446930744cc26aff7533cfd15') in 0.008652 seconds
+  Import took 0.015622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture
+  artifactKey: Guid(e63f5747a3596754383e11d5569f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture using Guid(e63f5747a3596754383e11d5569f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55d16c446930744cc26aff7533cfd15') in 0.006407 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.798882 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Cactus_01.prefab
+  artifactKey: Guid(c15f2197123d20c499e79071500903f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Cactus_01.prefab using Guid(c15f2197123d20c499e79071500903f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91f652d4efa543a3be6f7b016793f3a') in 0.030027 seconds
+  Import took 0.037351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.408087 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Plant_02.prefab
+  artifactKey: Guid(abd390c3feaccf64fb6e33eb8d0fd169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Plant_02.prefab using Guid(abd390c3feaccf64fb6e33eb8d0fd169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90633e282ff9a19dedb66256eb6c23d2') in 0.049788 seconds
+  Import took 0.064720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.124721 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Green.mat
+  artifactKey: Guid(58580be5a1ee44d42a9966d48abb8758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Green.mat using Guid(58580be5a1ee44d42a9966d48abb8758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd445cbf67c2ec993e06f8b89f3ed72df') in 0.052034 seconds
+  Import took 0.076367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Orange.mat
+  artifactKey: Guid(aeea0b0ce40f57741addd46857bdbc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Orange.mat using Guid(aeea0b0ce40f57741addd46857bdbc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c247539ce508b6eec1684625fb27bfc') in 0.029699 seconds
+  Import took 0.040937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Grey.mat
+  artifactKey: Guid(18ec5123ab1b37446998bf1b1228a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Grey.mat using Guid(18ec5123ab1b37446998bf1b1228a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1324dfe3c483cfc4636b6f07f2963a') in 0.051157 seconds
+  Import took 0.059238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Sand.mat
+  artifactKey: Guid(ab1c456102124f54b9ac73a185735796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Materials/Sand.mat using Guid(ab1c456102124f54b9ac73a185735796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a8a73812faf917a4eab2de5c1a16dc') in 0.046023 seconds
+  Import took 0.053724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.891383 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Rock_01.prefab
+  artifactKey: Guid(8e245cc20ba42c64d88541d87ad382c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Flat_Rock_01.prefab using Guid(8e245cc20ba42c64d88541d87ad382c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc31d224de874d73c1df896ccef2fba') in 0.031067 seconds
+  Import took 0.046693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.787637 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab
+  artifactKey: Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab using Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05be90f32af4895eb9cdfc45af707a66') in 0.039827 seconds
+  Import took 0.057021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab
+  artifactKey: Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab using Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a3451735e66f3b16baaccadc1b1454') in 0.034961 seconds
+  Import took 0.053185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab
+  artifactKey: Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab using Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e8406ac20d7cf03c879abef0f7603e') in 0.032126 seconds
+  Import took 0.040064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab
+  artifactKey: Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab using Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fd542dba987211281d25faade654a2') in 0.032806 seconds
+  Import took 0.053171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab
+  artifactKey: Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab using Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ae253ee56d77be593eb16b43027437') in 0.030023 seconds
+  Import took 0.036558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab
+  artifactKey: Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab using Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b29b6c53b8e2eebe73700350ba3ba87') in 0.021333 seconds
+  Import took 0.036410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab
+  artifactKey: Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab using Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8c01b38aa7f5eecb8d187a3a280343') in 0.027487 seconds
+  Import took 0.036967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab
+  artifactKey: Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab using Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d979dbfa60a7826645ad4aac5062b9') in 0.020921 seconds
+  Import took 0.028920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.278924 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab
+  artifactKey: Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab using Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b7eb5d608fff2375cafc2b3ae4ade3') in 0.022543 seconds
+  Import took 0.028506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab
+  artifactKey: Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab using Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cb5ca82c408a08f6dcf35eabc1bf4c') in 0.025577 seconds
+  Import took 0.046956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab
+  artifactKey: Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab using Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675eb48a23376ea9e2a4c0ef0e2c4074') in 0.022462 seconds
+  Import took 0.032910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab
+  artifactKey: Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab using Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f17fe8c2a9bec84087dcab27834f1d6') in 0.027568 seconds
+  Import took 0.034846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab
+  artifactKey: Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab using Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358c948e66b5e063c8473ce97b584dfd') in 0.027880 seconds
+  Import took 0.034202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab
+  artifactKey: Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab using Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419b3e5943e0bbf89a4a86138bf18f14') in 0.039260 seconds
+  Import took 0.059669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab
+  artifactKey: Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab using Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49555708e31af07706e08c1c0ea7dad2') in 0.021376 seconds
+  Import took 0.038692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab
+  artifactKey: Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab using Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1237303000bb1f4e6f2e59030f6ad4b5') in 0.030333 seconds
+  Import took 0.045222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612279 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab
+  artifactKey: Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type1 04.prefab using Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f13beb06e263adb6c180d3378eca3b') in 0.033695 seconds
+  Import took 0.040028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab
+  artifactKey: Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 04.prefab using Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32c59e5b5a4de649918369db90513ad') in 0.030216 seconds
+  Import took 0.036566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab
+  artifactKey: Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type3 04.prefab using Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793f23bbf794869d41ede3c584d96f1f') in 0.020872 seconds
+  Import took 0.042916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab
+  artifactKey: Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 04.prefab using Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3767b98e178c856b72a22fe398cd1f0') in 0.027764 seconds
+  Import took 0.035104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab
+  artifactKey: Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 01.prefab using Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881940796439083502adebe87374db92') in 0.024781 seconds
+  Import took 0.033760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab
+  artifactKey: Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type6 04.prefab using Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0726538452bca624107570cfce1b735b') in 0.025547 seconds
+  Import took 0.032617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab
+  artifactKey: Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type4 02.prefab using Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a35af1fc28802ae03bfd011d2a47ea') in 0.023856 seconds
+  Import took 0.035934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab
+  artifactKey: Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/BrokenVector/LowPolyRockPack/Prefabs/Deco/Rock Type2 03.prefab using Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e3a76a782fabe55ee6db5bdf8ba41b') in 0.026285 seconds
+  Import took 0.033140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.543445 seconds.
+  path: Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Materials/Colors.mat
+  artifactKey: Guid(533bdfad60237a341982c1086ed01ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/MapAssets/Deco/Free Low Poly Desert Pack/Materials/Texture/Materials/Colors.mat using Guid(533bdfad60237a341982c1086ed01ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c2c1f0af0ef8b44f22a1f6e0279987') in 0.060545 seconds
+  Import took 0.066216 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.161 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.3 MB.
+System memory in use after: 126.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3095.
+Total: 30.547248 ms (FindLiveObjects: 0.751911 ms CreateObjectMapping: 0.351511 ms MarkObjects: 26.549114 ms  DeleteObjects: 2.885423 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.353423 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(e492486f8befce441b8b08b2df3a0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(e492486f8befce441b8b08b2df3a0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fcaf52d2fa9c56407ef8859e442340') in 0.482813 seconds
+  Import took 0.491879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3cf7ba525c436e547aaaf4b969f678b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3cf7ba525c436e547aaaf4b969f678b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6cb706029f58e75c510837e609b550') in 0.039007 seconds
+  Import took 0.066183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.107249 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.fbx
+  artifactKey: Guid(5c9011f79fde22f458475fb9f5067204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.fbx using Guid(5c9011f79fde22f458475fb9f5067204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffeccafa4a38a7fecac415137c0e13fc') in 1.579372 seconds
+  Import took 1.588890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.fbx
+  artifactKey: Guid(65e522243d940064eb22f75797d88082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.fbx using Guid(65e522243d940064eb22f75797d88082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e977afbfef70f6f262299e48437f3e88') in 0.233104 seconds
+  Import took 0.263824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Shield.prefab
+  artifactKey: Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Shield.prefab using Guid(2a5e6030d50695444981d666923b4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84578cd7357f315074b681e73f8ac182') in 0.259360 seconds
+  Import took 0.298977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Fragment program with _ADDITIONAL_LIGHTS _EMISSION
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT _SCREEN_SPACE_OCCLUSION LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _METALLICSPECGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _OCCLUSIONMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _SPECULARHIGHLIGHTS_OFF _ENVIRONMENTREFLECTIONS_OFF _SPECULAR_SETUP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '874ec938c25c1418f458546c0fb603f7') in 0.237830 seconds
+  Import took 0.256991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/Heal.prefab
+  artifactKey: Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/Heal.prefab using Guid(e8e83a83e9e54d249a31084a700ca77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b35838453389d8f705496466bd1091d') in 0.033485 seconds
+  Import took 0.053910 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.352 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2401 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3157.
+Total: 7.084490 ms (FindLiveObjects: 0.713778 ms CreateObjectMapping: 0.332444 ms MarkObjects: 4.652267 ms  DeleteObjects: 1.377689 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.833913 seconds.
+  path: Assets/Assets/Scripts/Game/Rocks.cs
+  artifactKey: Guid(7b7577111d69ce749af38dc976f14fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/Rocks.cs using Guid(7b7577111d69ce749af38dc976f14fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c7212fa81b399ef9c01f243ffe4af7') in 0.011844 seconds
+  Import took 0.028992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002990 seconds.
+  path: Assets/Assets/Scripts/Game/Rocks.cs
+  artifactKey: Guid(7b7577111d69ce749af38dc976f14fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/Rocks.cs using Guid(7b7577111d69ce749af38dc976f14fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c7212fa81b399ef9c01f243ffe4af7') in 0.008344 seconds
+  Import took 0.015110 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.069 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 6.608312 ms (FindLiveObjects: 0.837467 ms CreateObjectMapping: 0.385244 ms MarkObjects: 3.779600 ms  DeleteObjects: 1.597689 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.001907 seconds.
+  path: Assets/Assets/Scripts/Sound
+  artifactKey: Guid(2b9fbc2aab85ff0438bbe02e94306a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Sound using Guid(2b9fbc2aab85ff0438bbe02e94306a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc9d0a0103786424ce28dd5e29c2767') in 0.032382 seconds
+  Import took 0.062762 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.994 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 10.658268 ms (FindLiveObjects: 1.057467 ms CreateObjectMapping: 1.004667 ms MarkObjects: 6.642534 ms  DeleteObjects: 1.873422 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.724011 seconds.
+  path: Assets/Assets/Scripts/Sound/Sound.cs
+  artifactKey: Guid(1c75fa526869fe74b9abd40190d9b90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Sound/Sound.cs using Guid(1c75fa526869fe74b9abd40190d9b90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d678a279037886ae9e086daf465be09') in 0.022701 seconds
+  Import took 0.043137 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.242 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.7 MB.
+System memory in use after: 127.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3166.
+Total: 8.187912 ms (FindLiveObjects: 0.636045 ms CreateObjectMapping: 0.226844 ms MarkObjects: 4.459156 ms  DeleteObjects: 2.858045 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.626318 seconds.
+  path: Assets/Assets/Scripts/Sound/AudioManager.cs
+  artifactKey: Guid(c938d32c51bf4e1489ee06223268db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Sound/AudioManager.cs using Guid(c938d32c51bf4e1489ee06223268db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb2360cf64a8ab177b026dc6a05eee0') in 0.061369 seconds
+  Import took 0.070399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1014.827080 seconds.
+  path: Assets/Assets/Scripts/Sound/AudioManager.cs
+  artifactKey: Guid(c938d32c51bf4e1489ee06223268db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Sound/AudioManager.cs using Guid(c938d32c51bf4e1489ee06223268db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4295683cfb2e4ceca6e085bcfa1ccc5') in 0.010240 seconds
+  Import took 0.021712 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.032 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3169.
+Total: 8.324801 ms (FindLiveObjects: 0.995867 ms CreateObjectMapping: 0.634089 ms MarkObjects: 4.955867 ms  DeleteObjects: 1.731156 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.972362 seconds.
+  path: Assets/Assets/Prefabs/PowerUps
+  artifactKey: Guid(e236ca9722563d646af9b3b173e4bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps using Guid(e236ca9722563d646af9b3b173e4bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f55dc576e9ac486ed15e9af2c8f053') in 0.018311 seconds
+  Import took 0.037332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.763839 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e456fc575bfc0b744e129bc4226c15') in 0.468983 seconds
+  Import took 0.475582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.174332 seconds.
+  path: Assets/Assets/Prefabs/Materials/favpng_Çorum-Çekv-corum-education-and-culture-foundation-silhouette-student-city.mat
+  artifactKey: Guid(2ef6bed84ec692c4eb0ac44b7f5f7fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Materials/favpng_Çorum-Çekv-corum-education-and-culture-foundation-silhouette-student-city.mat using Guid(2ef6bed84ec692c4eb0ac44b7f5f7fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abab800b79e996f1f9eadab0fcf20e58') in 0.102710 seconds
+  Import took 0.124080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.606587 seconds.
+  path: Assets/Assets/Prefabs/Ship/Collider.fbx
+  artifactKey: Guid(a573ded3558253d4493e655d6ad08bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship/Collider.fbx using Guid(a573ded3558253d4493e655d6ad08bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8574df1040b2a28cc288618610d22b33') in 0.086509 seconds
+  Import took 0.092253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Assets/Prefabs/Ship/Player.prefab
+  artifactKey: Guid(10026e97a64cd6049b8ad9bb505949f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship/Player.prefab using Guid(10026e97a64cd6049b8ad9bb505949f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a388390f968cc4fc4fa220ba839c89') in 0.322967 seconds
+  Import took 0.339031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Assets/Prefabs/Ship/HoverBike.fbx
+  artifactKey: Guid(3a1475ca3d63a5f4fb4e837115ed72d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Ship/HoverBike.fbx using Guid(3a1475ca3d63a5f4fb4e837115ed72d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a4b68b9d9b2f63d1b5df9191a7792f') in 0.189263 seconds
+  Import took 0.211671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.889037 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f7d137428f0d5b3527754e21a3e01c') in 0.023603 seconds
+  Import took 0.039461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.838376 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/New Animator Override Controller.overrideController
+  artifactKey: Guid(1bb683067f1afba498526660fb1f4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/New Animator Override Controller.overrideController using Guid(1bb683067f1afba498526660fb1f4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbdaea7e684d1489b7df209c6fa9178') in 0.022199 seconds
+  Import took 0.029602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008592 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/New Animator Override Controller.overrideController
+  artifactKey: Guid(1bb683067f1afba498526660fb1f4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/New Animator Override Controller.overrideController using Guid(1bb683067f1afba498526660fb1f4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbdaea7e684d1489b7df209c6fa9178') in 0.007632 seconds
+  Import took 0.013539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.466452 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f2ff1703cdcdd147b3892706543af4') in 0.023204 seconds
+  Import took 0.055757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.398343 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bda598a15670a27b44865511f5901a4') in 0.027562 seconds
+  Import took 0.034733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.547283 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PowerUp.controller
+  artifactKey: Guid(8743998bd18fa054c84af43f6e19d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PowerUp.controller using Guid(8743998bd18fa054c84af43f6e19d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25bbd198d43f910ec8e2de71106a5b7') in 0.010541 seconds
+  Import took 0.039422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.996185 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.controller
+  artifactKey: Guid(a3c8854330e670a44874742086ffc296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.controller using Guid(a3c8854330e670a44874742086ffc296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7b50b89b511d21372b83298ccb003e') in 0.036801 seconds
+  Import took 0.046532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.913300 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '31df6bb7e945646d478bfc5ec757f9a2') in 0.050838 seconds
+  Import took 0.057778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.221689 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '80745bc2715e6fbed385acaf0e39cf3d') in 0.027162 seconds
+  Import took 0.033330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.758716 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'cd3aa987823a0e427759e91fb64c3f38') in 0.056788 seconds
+  Import took 0.093483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.681520 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'a8fa103805cf838f0ec041bfefb10308') in 0.031557 seconds
+  Import took 0.038202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.272257 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '42e5586f5c1231a02ae66bc6ff9f982e') in 0.028474 seconds
+  Import took 0.035404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581286 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '54692592385c407b06c3720e9389d8e4') in 0.025510 seconds
+  Import took 0.034032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.817293 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'dd1236d8d1d7f273bbf634cb3aa9bcb4') in 0.031098 seconds
+  Import took 0.041004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.231340 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '8b87e95986bffef094b84cb388350791') in 0.023101 seconds
+  Import took 0.041002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421165 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '714579b2c3ad813ae83decbcd0325eba') in 0.025859 seconds
+  Import took 0.032602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.461426 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '7c31a81f04824311b4bc4d72df518098') in 0.035850 seconds
+  Import took 0.043423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.986665 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'c3830e59e3fe98ef2939dc864300216b') in 0.028007 seconds
+  Import took 0.036014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.862410 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '690943ab57c2de08507eaa3dbda066c0') in 0.027739 seconds
+  Import took 0.033791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.008126 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '93b51b9b866f1ca3dd997ee0ba9be362') in 0.026468 seconds
+  Import took 0.033238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.070602 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'a324ab909064103ebe0989111ecb4e2c') in 0.029274 seconds
+  Import took 0.049596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.066894 seconds.
+  path: Assets/Assets/Prefabs/PowerUps/PointCrate.prefab
+  artifactKey: Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/PowerUps/PointCrate.prefab using Guid(c753f28b6c93de0419ee4d2faf7a459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PointCrate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '62d817f472630d8971c23564f8dd81bf') in 0.026656 seconds
+  Import took 0.034230 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011443 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.159 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 6.986712 ms (FindLiveObjects: 0.785156 ms CreateObjectMapping: 0.198000 ms MarkObjects: 4.528089 ms  DeleteObjects: 1.468134 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.120517 seconds.
+  path: Assets/Assets/Scripts/Game/ChManager.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/ChManager.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37d35716d029b408180149da8f3d14') in 0.013951 seconds
+  Import took 0.021060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051558 seconds.
+  path: Assets/Assets/Scripts/Game/ChManager.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/ChManager.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37d35716d029b408180149da8f3d14') in 0.006096 seconds
+  Import took 0.013623 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.125 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 11.652668 ms (FindLiveObjects: 1.078978 ms CreateObjectMapping: 0.602800 ms MarkObjects: 6.494401 ms  DeleteObjects: 3.466223 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.288525 seconds.
+  path: Assets/Assets/Scripts/Game/ChManager.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/ChManager.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9b2b263193dee43ef41c1a85474252') in 0.015450 seconds
+  Import took 0.022573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.345583 seconds.
+  path: Assets/Assets/Scripts/Game/ChManager.cs
+  artifactKey: Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/ChManager.cs using Guid(d9c4a65ab56e1f441893ab3415463f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9b2b263193dee43ef41c1a85474252') in 0.009847 seconds
+  Import took 0.016046 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.961 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 6.629334 ms (FindLiveObjects: 0.624800 ms CreateObjectMapping: 0.270844 ms MarkObjects: 4.130623 ms  DeleteObjects: 1.558089 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.969 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 20.033691 ms (FindLiveObjects: 0.635067 ms CreateObjectMapping: 0.206311 ms MarkObjects: 16.994269 ms  DeleteObjects: 2.190223 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004228 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.037 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 8.954001 ms (FindLiveObjects: 1.316089 ms CreateObjectMapping: 0.707422 ms MarkObjects: 5.272667 ms  DeleteObjects: 1.640711 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.504045 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapGenerator.cs
+  artifactKey: Guid(b618a60b8ff04f148b243e49cfa8126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapGenerator.cs using Guid(b618a60b8ff04f148b243e49cfa8126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4f3a296bce4d07fe1520a032f43268') in 0.012544 seconds
+  Import took 0.030193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002934 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/MapGenerator.cs
+  artifactKey: Guid(b618a60b8ff04f148b243e49cfa8126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/MapGenerator.cs using Guid(b618a60b8ff04f148b243e49cfa8126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4f3a296bce4d07fe1520a032f43268') in 0.009564 seconds
+  Import took 0.016175 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.087 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3223.
+Total: 6.401512 ms (FindLiveObjects: 0.617956 ms CreateObjectMapping: 0.261556 ms MarkObjects: 4.031378 ms  DeleteObjects: 1.483289 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.326377 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/EnviromentMove.cs
+  artifactKey: Guid(d325ea5c40d5d9b49879cd6a512297e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/EnviromentMove.cs using Guid(d325ea5c40d5d9b49879cd6a512297e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5611e32d2e7a6f8f2eb14a1ff6431ac3') in 0.025328 seconds
+  Import took 0.045187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Assets/Scripts/Game/MapInstances/EnviromentGenerator.cs
+  artifactKey: Guid(440d46582a52c5d47a99f3c571102db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Game/MapInstances/EnviromentGenerator.cs using Guid(440d46582a52c5d47a99f3c571102db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797304644ea1c43f85fbe0530238e06f') in 0.007000 seconds
+  Import took 0.015318 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.488 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3223.
+Total: 7.153912 ms (FindLiveObjects: 0.589111 ms CreateObjectMapping: 0.172578 ms MarkObjects: 4.896223 ms  DeleteObjects: 1.485734 ms)
+

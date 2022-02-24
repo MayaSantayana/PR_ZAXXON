@@ -31,7 +31,7 @@ public class InitGameScript : MonoBehaviour
 
     //Score
     static float score;
-    public int extraScore;
+    int nForMult = 0;
     public int multiplicator;
 
     //UI
@@ -100,16 +100,16 @@ public class InitGameScript : MonoBehaviour
     }
 
 
-    //Functions
+    //METHODS
+
     public void OnDeath()
     {
         ship.SetActive(false);
         StopCoroutine("SpeedIncrease");      
-        
-
-
     }
 
+
+    //Collisions
     public void Hit()
     {
         if ((health >= 1) && (inv == false))
@@ -129,6 +129,24 @@ public class InitGameScript : MonoBehaviour
             alive = false;
         }
     }
+    public void PowerUp()
+    {
+        health += 1;
+        spritesPos--;
+        healthbar.sprite = healthbarArray[spritesPos];    
+    }
+
+    public void PickUp()
+    {
+        FindObjectOfType<AudioManager>().Play("PickUp");
+        score += 10f * multiplicator;
+        nForMult++;
+        if(nForMult >= 5)
+        {
+            nForMult = 0;
+            multiplicator++;
+        }
+    }
 
     void InvRevoke()
     {
@@ -139,19 +157,13 @@ public class InitGameScript : MonoBehaviour
         //StopCoroutine("Blinking");
     }
 
-    public void PowerUp()
-    {
-        health += 1;
-        spritesPos--;
-        healthbar.sprite = healthbarArray[spritesPos];    
-    }
 
     void UpdateUI()
     {
 
         float tiempo = Time.timeSinceLevelLoad;
         //float tiempo = Time.time;
-        score = (Mathf.Round(tiempo) * spaceshipSpeed + extraScore) * multiplicator;
+        score = (Mathf.Round(tiempo) * spaceshipSpeed);
 
         scoreText.text = "Score: " + Mathf.Round(score) + "x" + multiplicator;
         levelText.text = "Level: " + level.ToString();

@@ -96,4 +96,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacle: {fileID: 138554}
   initObject: {fileID: 0}
-  speedMod: 0.8

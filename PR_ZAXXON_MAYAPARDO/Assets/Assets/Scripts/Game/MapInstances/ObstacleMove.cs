@@ -7,7 +7,6 @@ public class ObstacleMove : MonoBehaviour
     [SerializeField] GameObject obstacle;
     [SerializeField] GameObject initObject;
     InitGameScript initGameScript;
-    [SerializeField] float speedMod = 0.8f;
     int direction;
     float speed;
 
@@ -21,7 +20,7 @@ public class ObstacleMove : MonoBehaviour
     void Update()
     {
         speed = initGameScript.spaceshipSpeed;
-        transform.Translate(0, 0, speedMod * -speed * Time.deltaTime, Space.World);
+        transform.Translate(0, 0, -speed * Time.deltaTime, Space.World);
         if (transform.position.z < -30)
         {
             Destroy(obstacle);
